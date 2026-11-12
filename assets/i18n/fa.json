@@ -1,0 +1,457 @@
+{
+  "dashboard_screen": {
+    "home": "خانه",
+    "leave": "مرخصی",
+    "attendance": "حضور و غیاب",
+    "more": "بیشتر"
+  },
+  "welcome_screen": {
+    "verify_button": "تأیید شرکت",
+    "skip": "رد کردن"
+  },
+  "login_screen": {
+    "login": "ورود",
+    "username": "نام کاربری",
+    "password": "رمز عبور",
+    "forget_password": "فراموشی رمز عبور",
+    "go_back": "<- بازگشت"
+  },
+  "home_screen": {
+    "hello_there": "سلام",
+    "check_in": "ثبت ورود",
+    "check_out": "ثبت خروج",
+    "present": "حاضر",
+    "holidays": "تعطیلات",
+    "leave": "مرخصی",
+    "request": "درخواست",
+    "projects": "پروژه‌ها",
+    "awards": "جوایز",
+    "training": "آموزش",
+    "overview": "نمای کلی",
+    "upcoming_holiday": "تعطیلات آینده",
+    "recent_award": "جایزه اخیر",
+    "task": "وظیفه",
+    "show_all": "نمایش همه",
+    "view_all": "مشاهده همه",
+    "weekly": "هفتگی",
+    "reports": "گزارش‌ها",
+    "my_team": "تیم من",
+    "sun": "یکشنبه",
+    "mon": "دوشنبه",
+    "tue": "سه‌شنبه",
+    "wed": "چهارشنبه",
+    "thu": "پنج‌شنبه",
+    "fri": "جمعه",
+    "sat": "شنبه",
+    "note": "یادداشت (اختیاری)"
+  },
+  "leave_screen": {
+    "leave": "مرخصی",
+    "issue_leave": "صدور مرخصی",
+    "time_leave": "مرخصی زمانی",
+    "recent_leave_activity": "فعالیت‌های اخیر مرخصی",
+    "this_month": "این ماه",
+    "this_year": "امسال",
+    "filter": "فیلتر",
+    "apply_leave": "درخواست مرخصی",
+    "select_start_date": "انتخاب تاریخ شروع",
+    "select_end_date": "انتخاب تاریخ پایان",
+    "reason": "دلیل",
+    "request_leave": "درخواست مرخصی",
+    "select_date": "انتخاب تاریخ",
+    "select_start_time": "انتخاب زمان شروع",
+    "select_end_time": "انتخاب زمان پایان",
+    "select_leave_type": "انتخاب نوع مرخصی"
+  },
+  "attendance_screen": {
+    "check_in": "ثبت ورود",
+    "check_out": "ثبت خروج",
+    "attendance_history": "تاریخچه حضور و غیاب",
+    "date": "تاریخ",
+    "day": "روز",
+    "start_time": "زمان شروع",
+    "end_time": "زمان پایان",
+    "present_days": "روزهای حضور",
+    "worked_hours": "ساعات کاری",
+    "undertime": "زیر زمان",
+    "overtime": "اضافه کاری",
+    "attendance_summary": "خلاصه حضور"
+  },
+  "more_screen": {
+    "attendance_default_method": "ثبت ورود",
+    "default": "پیش فرض",
+    "nfc": "NFC",
+    "add_nfc": "اضافه کردن NFC",
+    "qr_code": "کد QR",
+    "account": "حساب کاربری",
+    "profile": "پروفایل",
+    "team_sheet": "لیست تیم",
+    "project_management": "مدیریت پروژه",
+    "change_password": "تغییر رمز عبور",
+    "awards": "جوایز",
+    "training": "آموزش‌ها",
+    "holiday": "تعطیلات",
+    "notices": "اطلاعیه‌ها",
+    "meeting": "جلسه",
+    "leave_calendar": "تقویم دفتر",
+    "tada": "TADA",
+    "payslip": "فیش حقوقی",
+    "advance_salary": "حقوق پیشرفته",
+    "loans": "وام‌ها",
+    "support": "پشتیبانی",
+    "company_rules": "قوانین شرکت",
+    "about_us": "درباره ما",
+    "terms_and_conditions": "شرایط و ضوابط",
+    "privacy_policy": "سیاست حفظ حریم خصوصی",
+    "dark_mode": "حالت تاریک",
+    "animation": "انیمیشن",
+    "finance": "مالی",
+    "additional": "اضافی",
+    "office_desk": "میز اداری",
+    "others": "سایر",
+    "log_out": "خروج"
+  },
+  "general_screen": {
+    "notification_detail": "جزئیات اعلان",
+    "published_date": "تاریخ انتشار"
+  },
+  "advance_detail_screen": {
+    "advance_detail": "جزئیات پیشرفت",
+    "total": "مجموع",
+    "rs": "ریال",
+    "requested_amount": "مبلغ درخواست شده",
+    "released_amount": "مبلغ آزاد شده",
+    "is_settled": "تسویه شده",
+    "no": "نه",
+    "yes": "بله",
+    "reason": "دلیل",
+    "verified_by": "تأیید شده توسط",
+    "remarks": "ملاحظات"
+  },
+  "advance_salary_screen": {
+    "advance_salary": "حقوق پیشرفته"
+  },
+  "create_salary_screen": {
+    "create_advance_salary": "ایجاد حقوق پیشرفته",
+    "submit": "ارسال",
+    "reason": "دلیل",
+    "expected_amount": "مبلغ مورد انتظار"
+  },
+  "edit_salary_screen": {
+    "edit_advance_salary": "ویرایش حقوق پیشرفته",
+    "edit": "ویرایش",
+    "reason": "دلیل",
+    "expected_amount": "مبلغ مورد انتظار"
+  },
+  "award_detail_screen": {
+    "award_detail": "جزئیات جایزه",
+    "awarded_by": "اعطا شده توسط",
+    "gift_detail": "جزئیات هدیه"
+  },
+  "award_screen": {
+    "award": "جایزه",
+    "total_awards": "کل جوایز",
+    "recent_achievement": "دستاورد اخیر",
+    "rewcode": "REWCODE",
+    "all_achievement": "تمام دستاوردها",
+    "awarded_by": "اعطا شده توسط"
+  },
+  "create_loan_screen": {
+    "request_loan": "درخواست وام",
+    "submit": "ارسال",
+    "expected_loan_amount": "مبلغ وام مورد انتظار",
+    "expected_installment_period": "دوره اقساط مورد انتظار",
+    "loan_detail": "جزئیات وام"
+  },
+  "edit_loan_screen": {
+    "edit_requested_loan": "ویرایش وام درخواستی",
+    "submit": "ارسال",
+    "expected_loan_amount": "مبلغ وام مورد انتظار",
+    "expected_installment_period": "دوره اقساط مورد انتظار",
+    "loan_detail": "جزئیات وام"
+  },
+  "loan_detail_screen": {
+    "edit_requested_loan": "ویرایش وام درخواستی",
+    "total": "مجموع",
+    "remarks": "ملاحظات",
+    "verified_by": "تأیید شده توسط",
+    "is_settled": "تسویه شده",
+    "requested_amount": "مبلغ درخواست شده",
+    "granted_amount": "مبلغ اعطا شده",
+    "installment_period": "دوره اقساط",
+    "loan_detail": "نرخ بهره"
+  },
+  "loan_list_screen": {
+    "loan": "وام"
+  },
+  "change_password_screen": {
+    "old_password": "رمز عبور قدیمی",
+    "new_password": "رمز عبور جدید",
+    "confirm_password": "تأیید رمز عبور"
+  },
+  "chat_screen": {
+    "send_message": "ارسال پیام"
+  },
+  "group_chat_screen": {
+    "send_message": "ارسال پیام"
+  },
+  "company_rules_screen": {
+    "company_rules": "قوانین شرکت"
+  },
+  "edit_profile_screen": {
+    "edit_profile": "ویرایش پروفایل",
+    "update": "بروزرسانی",
+    "change": "تغییر",
+    "fullname": "نام کامل",
+    "email": "ایمیل",
+    "address": "آدرس",
+    "phone_number": "شماره تلفن",
+    "dob": "تاریخ تولد",
+    "gender": "جنسیت",
+    "male": "مرد",
+    "female": "زن",
+    "other": "دیگر"
+  },
+  "employee_detail_screen": {
+    "profile": "پروفایل",
+    "basic_details": "جزئیات اصلی",
+    "change": "تغییر",
+    "fullname": "نام کامل",
+    "username": "نام کاربری",
+    "address": "آدرس",
+    "phone_number": "شماره تلفن",
+    "dob": "تاریخ تولد",
+    "gender": "جنسیت",
+    "company_details": "جزئیات شرکت",
+    "job_position": "موقعیت شغلی",
+    "branch": "شعبه",
+    "department": "بخش",
+    "employment_type": "نوع اشتغال",
+    "joined_date": "تاریخ پیوستن",
+    "achievements": "دستاوردها"
+  },
+  "holiday_screen": {
+    "holidays": "تعطیلات",
+    "upcoming": "آینده",
+    "past": "گذشته"
+  },
+  "leave_calendar_screen": {
+    "leave_calendar": "تقویم دفتر",
+    "leave_list": "لیست مرخصی‌ها"
+  },
+  "meeting_detail_screen": {
+    "meeting_detail": "جزئیات جلسه",
+    "date": "تاریخ",
+    "participants": "شرکت‌کنندگان"
+  },
+  "meeting_list_screen": {
+    "meeting_detail": "جلسات",
+    "venue": "محل",
+    "participants": "بیشتر"
+  },
+  "notice_screen": {
+    "notices": "اطلاعیه‌ها"
+  },
+  "notification_screen": {
+    "notifications": "اعلانات"
+  },
+  "payslipdetail_screen": {
+    "emp_id": "شناسه کارمند",
+    "earnings": "درآمد",
+    "deductions": "کسرها",
+    "actual_salary": "حقوق واقعی",
+    "advance_salary": "حقوق پیشرفته",
+    "absent_deduction": "کسر عدم حضور",
+    "tada": "TADA",
+    "overtime": "اضافه کاری",
+    "undertime": "کم کاری",
+    "net_salary": "حقوق خالص",
+    "joining_date": "تاریخ پیوستن"
+  },
+  "payslip_screen": {
+    "payslip": "فیش حقوقی",
+    "request_payslip": "درخواست فیش حقوقی",
+    "result": "نتیجه"
+  },
+  "profile_screen": {
+    "profile": "پروفایل",
+    "basic_details": "جزئیات اصلی",
+    "change": "تغییر",
+    "fullname": "نام کامل",
+    "username": "نام کاربری",
+    "address": "آدرس",
+    "phone_number": "شماره تلفن",
+    "dob": "تاریخ تولد",
+    "gender": "جنسیت",
+    "company_details": "جزئیات شرکت",
+    "job_position": "موقعیت شغلی",
+    "branch": "شعبه",
+    "department": "بخش",
+    "employment_type": "نوع اشتغال",
+    "joined_date": "تاریخ پیوستن",
+    "bank_name": "نام بانک",
+    "bank_details": "نام",
+    "account_number": "شماره حساب",
+    "account_type": "نوع حساب"
+  },
+  "support_detail_screen": {
+    "payslip": "جزئیات پشتیبانی",
+    "description": "توضیحات",
+    "assigned_to": "تعیین شده به",
+    "solved_by": "حل شده توسط",
+    "solved_at": "حل شده در"
+  },
+  "support_list_screen": {
+    "my_tickets": "تیکت‌های من",
+    "all": "همه",
+    "pending": "در انتظار",
+    "in_progress": "در حال انجام",
+    "solved": "حل شده",
+    "issue_to": "تعیین شده به"
+  },
+  "support_screen": {
+    "support": "پشتیبانی",
+    "help_desk": "میز کمک",
+    "contact_us": "اگر مشکلی دارید یا شکایتی دارید با ما تماس بگیرید.",
+    "select_department_type": "نوع بخش را انتخاب کنید",
+    "title": "عنوان",
+    "description": "توضیحات",
+    "submit": "ارسال"
+  },
+  "team_sheet_screen": {
+    "team_sheet": "لیست تیم"
+  },
+  "create_tada_screen": {
+    "create_tada": "ایجاد تادا",
+    "submit": "ارسال",
+    "title": "عنوان",
+    "total_expenses": "هزینه‌های کل",
+    "add_attachment": "افزودن ضمیمه",
+    "description": "توضیحات"
+  },
+  "edit_tada_screen": {
+    "edit_tada": "ویرایش تادا",
+    "submit": "ارسال",
+    "title": "عنوان",
+    "total_expenses": "هزینه‌های کل",
+    "attachment": "ضمیمه",
+    "add_attachment": "افزودن ضمیمه",
+    "description": "توضیحات"
+  },
+  "tada_detail_screen": {
+    "tada_detail": "جزئیات تادا",
+    "total": "کل",
+    "rs": "Rs",
+    "title": "عنوان",
+    "attachment": "ضمیمه",
+    "show_media": "نمایش رسانه",
+    "verified_by": "تایید شده توسط",
+    "description": "توضیحات"
+  },
+  "tada_list_screen": {
+    "tada": "تادا"
+  },
+  "common": {
+    "cancel_leave": "لغو مرخصی",
+    "confirm": "تأیید",
+    "cancel_leave_alert": "آیا مطمئن هستید که می خواهید مرخصی را لغو کنید؟",
+    "log_out_alert": "آیا مطمئن هستید که می خواهید از برنامه خارج شوید؟",
+    "scan_nfc": "اسکن برچسب‌های NFC",
+    "log_out": "خروج",
+    "close": "بستن",
+    "go_back": "بازگشت",
+    "language": "زبان",
+    "select_language": "انتخاب زبان",
+    "total": "مجموع",
+    "leave": "مرخصی",
+    "holiday": "تعطیلات",
+    "birthday": "تولد",
+    "office_events": "رویدادهای اداری",
+    "events": "رویدادها",
+    "location": "مکان: ",
+    "event_date": "تاریخ: ",
+    "event_time": "زمان: ",
+    "event_description": "توضیحات",
+    "assets": "دارایی\u200Cها",
+    "host": "میزبان"
+  },
+  "comment_list_screen": {
+    "comments": "نظرات",
+    "load_more_comments": "بارگذاری نظرات بیشتر",
+    "write_your_comment": "نظر خود را بنویسید",
+    "team": "تیم",
+    "delete": "حذف",
+    "reply": "پاسخ",
+    "cancel_reply": "لغو پاسخ"
+  },
+  "project_detail_screen": {
+    "attachments": "پیوست‌ها",
+    "image": "تصویر",
+    "files": "فایل‌ها",
+    "show_media": "نمایش رسانه ->",
+    "file_images": "فایل‌ها/تصاویر",
+    "description": "توضیحات",
+    "show_more": "نمایش بیشتر",
+    "show_less": "نمایش کمتر",
+    "due_date": "تاریخ سررسید",
+    "tasks": "وظایف",
+    "team_leads": "سرپرست(های) تیم",
+    "team_members": "اعضای تیم",
+    "view_all": "مشاهده همه ->"
+  },
+  "project_list_screen": {
+    "projects": "پروژه‌ها",
+    "all": "همه",
+    "in_progress": "در حال انجام",
+    "completed": "تکمیل شده",
+    "on_hold": "متوقف شده",
+    "cancelled": "لغو شده",
+    "not_started": "شروع نشده"
+  },
+  "task_detail_screen": {
+    "attachments": "پیوست‌ها",
+    "image": "تصویر",
+    "files": "فایل‌ها",
+    "show_media": "نمایش رسانه ->",
+    "file_images": "فایل‌ها/تصاویر",
+    "description": "توضیحات",
+    "show_more": "نمایش بیشتر",
+    "show_less": "نمایش کمتر",
+    "due_date": "تاریخ سررسید",
+    "tasks": "وظایف",
+    "team_leads": "سرپرست(های) تیم",
+    "teams": "تیم‌ها",
+    "team_members": "اعضای تیم",
+    "view_all": "مشاهده همه ->",
+    "checklists": "چک‌لیست‌ها",
+    "no_checklist_found": "هیچ چک‌لیستی یافت نشد",
+    "comments": "نظرات",
+    "mark_as_finish": "علامت‌گذاری به عنوان اتمام",
+    "checklist_complete": "آیا مطمئن هستید که می‌خواهید این وظیفه را به عنوان تکمیل شده علامت‌گذاری کنید؟",
+    "confirm": "تأیید",
+    "go_back": "بازگشت"
+  },
+  "task_list_screen": {
+    "tasks": "وظایف",
+    "all": "همه",
+    "in_progress": "در حال انجام",
+    "completed": "تکمیل شده",
+    "on_hold": "متوقف شده",
+    "cancelled": "لغو شده",
+    "not_started": "شروع نشده"
+  },
+  "project_screen": {
+    "project_management": "مدیریت پروژه",
+    "progress_current_task": "پیشرفت وظیفه فعلی",
+    "task_completed": "وظیفه انجام شده",
+    "recent_projects": "پروژه‌های اخیر",
+    "view_all": "نمایش همه  ->",
+    "recent_tasks": "وظایف اخیر"
+  },
+  "loader": {
+    "loading": "در حال بارگذاری",
+    "requesting": "در حال درخواست",
+    "canceling": "در حال لغو، لطفا صبر کنید..",
+    "signing_in": "در حال ورود.."
+  }
+}

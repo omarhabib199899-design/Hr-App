@@ -1,0 +1,458 @@
+{
+  "dashboard_screen": {
+    "home": "Zuhause",
+    "leave": "Urlaub",
+    "attendance": "Teilnahme",
+    "more": "Mehr"
+  },
+  "welcome_screen": {
+    "verify_button": "Firma Verifizieren",
+    "skip": "Überspringen"
+  },
+  "login_screen": {
+    "login": "Einloggen",
+    "username": "Benutzername",
+    "password": "Passwort",
+    "forget_password": "Passwort Vergessen",
+    "go_back": "<- Zurückgehen"
+  },
+  "home_screen": {
+    "hello_there": "Hallo",
+    "check_in": "Einchecken",
+    "check_out": "Auschecken",
+    "present": "Anwesend",
+    "holidays": "Feiertage",
+    "leave": "Urlaub",
+    "request": "Anfrage",
+    "projects": "Projekte",
+    "awards": "Auszeichnungen",
+    "training": "Schulung",
+    "overview": "Überblick",
+    "upcoming_holiday": "Kommender Feiertag",
+    "recent_award": "Letzte Auszeichnung",
+    "task": "Aufgabe",
+    "show_all": "Alle Anzeigen",
+    "view_all": "Alle Anzeigen",
+    "weekly": "Wöchentlich",
+    "reports": "Berichte",
+    "my_team": "Mein Team",
+    "sun": "So",
+    "mon": "Mo",
+    "tue": "Di",
+    "wed": "Mi",
+    "thu": "Do",
+    "fri": "Fr",
+    "sat": "Sa",
+    "note": "Hinweis (Optional)"
+  },
+  "leave_screen": {
+    "leave": "Urlaub",
+    "issue_leave": "Urlaub Erteilen",
+    "time_leave": "Zeiturlaub",
+    "recent_leave_activity": "Neueste Urlaubsaktivität",
+    "this_month": "Diesen Monat",
+    "this_year": "Dieses Jahr",
+    "filter": "Filter",
+    "apply_leave": "Urlaub Beantragen",
+    "select_start_date": "Startdatum Auswählen",
+    "select_end_date": "Enddatum Auswählen",
+    "reason": "Grund",
+    "request_leave": "Urlaub Anfragen",
+    "select_date": "Datum Auswählen",
+    "select_start_time": "Startzeit Auswählen",
+    "select_end_time": "Endzeit Auswählen",
+    "select_leave_type": "Urlaubsart Auswählen"
+  },
+  "attendance_screen": {
+    "check_in": "Einchecken",
+    "check_out": "Auschecken",
+    "attendance_history": "Teilnahmeverlauf",
+    "date": "Datum",
+    "day": "Tag",
+    "start_time": "Startzeit",
+    "end_time": "Endzeit",
+    "present_days": "Anwesende Tage",
+    "worked_hours": "Gearbeitete Stunden",
+    "undertime": "Unterstunden",
+    "overtime": "Überstunden",
+    "attendance_summary": "Teilnahmeübersicht"
+  },
+  "more_screen": {
+    "attendance_default_method": "Einchecken",
+    "default": "Standard",
+    "nfc": "NFC",
+    "add_nfc": "NFC Hinzufügen",
+    "qr_code": "QR Code",
+    "account": "Konto",
+    "profile": "Profil",
+    "team_sheet": "Teamblatt",
+    "project_management": "Projektmanagement",
+    "change_password": "Passwort Ändern",
+    "awards": "Auszeichnungen",
+    "training": "Schulungen",
+    "holiday": "Feiertage",
+    "notices": "Bekanntmachungen",
+    "meeting": "Besprechung",
+    "leave_calendar": "Bürokalender",
+    "tada": "TADA",
+    "payslip": "Gehaltsabrechnung",
+    "advance_salary": "Vorauszahlung",
+    "loans": "Darlehen",
+    "support": "Unterstützung",
+    "company_rules": "Firmenregeln",
+    "about_us": "Über Uns",
+    "terms_and_conditions": "Geschäftsbedingungen",
+    "privacy_policy": "Datenschutzrichtlinie",
+    "dark_mode": "Dunkelmodus",
+    "animation": "Animation",
+    "finance": "Finanzen",
+    "additional": "Zusätzlich",
+    "office_desk": "Bürotisch",
+    "others": "Andere",
+    "log_out": "Abmelden"
+  },
+  "general_screen": {
+    "notification_detail": "Benachrichtigungsdetails",
+    "published_date": "Veröffentlichungsdatum"
+  },
+  "advance_detail_screen": {
+    "advance_detail": "Vorauszahlungsdetails",
+    "total": "Gesamt",
+    "rs": "Rs",
+    "requested_amount": "Angeforderter Betrag",
+    "released_amount": "Freigegebener Betrag",
+    "is_settled": "Ist Abgerechnet",
+    "no": "Nein",
+    "yes": "Ja",
+    "reason": "Grund",
+    "verified_by": "Verifiziert Von",
+    "remarks": "Bemerkungen"
+  },
+  "advance_salary_screen": {
+    "advance_salary": "Vorauszahlung"
+  },
+  "create_salary_screen": {
+    "create_advance_salary": "Vorauszahlung Erstellen",
+    "submit": "Absenden",
+    "reason": "Grund",
+    "expected_amount": "Erwarteter Betrag"
+  },
+  "edit_salary_screen": {
+    "edit_advance_salary": "Vorauszahlung Bearbeiten",
+    "edit": "Bearbeiten",
+    "reason": "Grund",
+    "expected_amount": "Erwarteter Betrag"
+  },
+  "award_detail_screen": {
+    "award_detail": "Auszeichnungsdetails",
+    "awarded_by": "Ausgezeichnet Von",
+    "gift_detail": "Geschenkdaten"
+  },
+  "award_screen": {
+    "award": "Auszeichnung",
+    "total_awards": "Gesamte Auszeichnungen",
+    "recent_achievement": "Letzte Leistung",
+    "rewcode": "REWCODE",
+    "all_achievement": "Alle Leistungen",
+    "awarded_by": "Ausgezeichnet Von"
+  },
+  "create_loan_screen": {
+    "request_loan": "Darlehen Anfragen",
+    "submit": "Absenden",
+    "expected_loan_amount": "Erwarteter Darlehensbetrag",
+    "expected_installment_period": "Erwartete Ratenperiode",
+    "loan_detail": "Darlehensdetails"
+  },
+  "edit_loan_screen": {
+    "edit_requested_loan": "Angefragtes Darlehen Bearbeiten",
+    "submit": "Absenden",
+    "expected_loan_amount": "Erwarteter Darlehensbetrag",
+    "expected_installment_period": "Erwartete Ratenperiode",
+    "loan_detail": "Darlehensdetails"
+  },
+  "loan_detail_screen": {
+    "loan_detail": "Darlehensdetails",
+    "total": "Gesamt",
+    "remarks": "Bemerkungen",
+    "verified_by": "Verifiziert Von",
+    "is_settled": "Ist Abgerechnet",
+    "requested_amount": "Angeforderter Betrag",
+    "granted_amount": "Bewilligter Betrag",
+    "installment_period": "Ratenperiode",
+    "interest_rate": "Zinssatz"
+  },
+  "loan_list_screen": {
+    "loan": "Darlehen"
+  },
+  "change_password_screen": {
+    "change_password": "Passwort Ändern",
+    "old_password": "Altes Passwort",
+    "new_password": "Neues Passwort",
+    "confirm_password": "Passwort Bestätigen"
+  },
+  "chat_screen": {
+    "send_message": "Nachricht Senden"
+  },
+  "group_chat_screen": {
+    "send_message": "Nachricht Senden"
+  },
+  "company_rules_screen": {
+    "company_rules": "Firmenregeln"
+  },
+  "edit_profile_screen": {
+    "edit_profile": "Profil Bearbeiten",
+    "update": "Aktualisieren",
+    "change": "Ändern",
+    "fullname": "Vollständiger Name",
+    "email": "Email",
+    "address": "Adresse",
+    "phone_number": "Telefonnummer",
+    "dob": "Geburtsdatum",
+    "gender": "Geschlecht",
+    "male": "Männlich",
+    "female": "Weiblich",
+    "other": "Andere"
+  },
+  "employee_detail_screen": {
+    "profile": "Profil",
+    "basic_details": "Grundlegende Details",
+    "change": "Ändern",
+    "fullname": "Vollständiger Name",
+    "username": "Benutzername",
+    "address": "Adresse",
+    "phone_number": "Telefonnummer",
+    "dob": "Geburtsdatum",
+    "gender": "Geschlecht",
+    "company_details": "Firmendetails",
+    "job_position": "Position",
+    "branch": "Zweigstelle",
+    "department": "Abteilung",
+    "employment_type": "Anstellungsart",
+    "joined_date": "Beitrittsdatum",
+    "achievements": "Leistungen"
+  },
+  "holiday_screen": {
+    "holidays": "Feiertage",
+    "upcoming": "Bevorstehend",
+    "past": "Vergangen"
+  },
+  "leave_calendar_screen": {
+    "leave_calendar": "Bürokalender",
+    "leave_list": "Abwesenheitsliste"
+  },
+  "meeting_detail_screen": {
+    "meeting_detail": "Besprechungsdetails",
+    "date": "Datum",
+    "participants": "Teilnehmer"
+  },
+  "meeting_list_screen": {
+    "meeting_detail": "Besprechungen",
+    "venue": "Veranstaltungsort",
+    "participants": "Teilnehmer"
+  },
+  "notice_screen": {
+    "notices": "Bekanntmachungen"
+  },
+  "notification_screen": {
+    "notifications": "Benachrichtigungen"
+  },
+  "payslipdetail_screen": {
+    "emp_id": "Mitarbeiter-ID",
+    "earnings": "Einnahmen",
+    "deductions": "Abzüge",
+    "actual_salary": "Tatsächliches Gehalt",
+    "advance_salary": "Vorauszahlung",
+    "absent_deduction": "Abwesenheitsabzug",
+    "tada": "TADA",
+    "overtime": "Überstunden",
+    "undertime": "Unterstunden",
+    "net_salary": "Nettogehalt",
+    "joining_date": "Beitrittsdatum"
+  },
+  "payslip_screen": {
+    "payslip": "Gehaltsabrechnung",
+    "request_payslip": "Gehaltsabrechnung Anfordern",
+    "result": "Ergebnis"
+  },
+  "profile_screen": {
+    "profile": "Profil",
+    "basic_details": "Grundlegende Details",
+    "change": "Ändern",
+    "fullname": "Vollständiger Name",
+    "username": "Benutzername",
+    "address": "Adresse",
+    "phone_number": "Telefonnummer",
+    "dob": "Geburtsdatum",
+    "gender": "Geschlecht",
+    "company_details": "Firmendetails",
+    "job_position": "Position",
+    "branch": "Zweigstelle",
+    "department": "Abteilung",
+    "employment_type": "Anstellungsart",
+    "joined_date": "Beitrittsdatum",
+    "bank_name": "Bankname",
+    "bank_details": "Bankdaten",
+    "account_number": "Kontonummer",
+    "account_type": "Kontotyp"
+  },
+  "support_detail_screen": {
+    "payslip": "Unterstützungsdetails",
+    "description": "Beschreibung",
+    "assigned_to": "Zugewiesen an",
+    "solved_by": "Gelöst von",
+    "solved_at": "Gelöst am"
+  },
+  "support_list_screen": {
+    "my_tickets": "Meine Tickets",
+    "all": "Alle",
+    "pending": "Ausstehend",
+    "in_progress": "In Bearbeitung",
+    "solved": "Gelöst",
+    "issue_to": "Problem an"
+  },
+  "support_screen": {
+    "support": "Unterstützung",
+    "help_desk": "Help Desk",
+    "contact_us": "Kontaktieren Sie uns, wenn ein Problem oder eine Beschwerde\\ngelöst werden muss.",
+    "select_department_type": "Abteilungstyp Auswählen",
+    "title": "Titel",
+    "description": "Beschreibung",
+    "submit": "Absenden"
+  },
+  "team_sheet_screen": {
+    "team_sheet": "Teamliste"
+  },
+  "create_tada_screen": {
+    "create_tada": "TADA Erstellen",
+    "submit": "Absenden",
+    "title": "Titel",
+    "total_expenses": "Gesamtkosten",
+    "add_attachment": "Anhang Hinzufügen",
+    "description": "Beschreibung"
+  },
+  "edit_tada_screen": {
+    "edit_tada": "TADA Bearbeiten",
+    "submit": "Absenden",
+    "title": "Titel",
+    "total_expenses": "Gesamtkosten",
+    "attachment": "Anhang",
+    "add_attachment": "Anhang Hinzufügen",
+    "description": "Beschreibung"
+  },
+  "tada_detail_screen": {
+    "tada_detail": "TADA-Details",
+    "total": "Gesamt",
+    "rs": "Rs",
+    "title": "Titel",
+    "attachment": "Anhang",
+    "show_media": "Medien Anzeigen",
+    "verified_by": "Verifiziert von",
+    "description": "Beschreibung"
+  },
+  "tada_list_screen": {
+    "tada": "TADA"
+  },
+  "common": {
+    "cancel_leave": "Urlaub stornieren",
+    "confirm": "Bestätigen",
+    "cancel_leave_alert": "Sind Sie sicher, dass Sie den Urlaub stornieren möchten?",
+    "log_out_alert": "Sind Sie sicher, dass Sie sich aus der Anwendung abmelden möchten?",
+    "scan_nfc": "Scannen nach NFC-Tags",
+    "log_out": "Abmelden",
+    "close": "Schließen",
+    "go_back": "Zurück",
+    "language": "Sprache",
+    "select_language": "Sprache auswählen",
+    "total": "Gesamt",
+    "leave": "Urlaub",
+    "holiday": "Feiertag",
+    "birthday": "Geburtstag",
+    "office_events": "Büroveranstaltungen",
+    "events": "Veranstaltungen",
+    "location": "Ort: ",
+    "event_date": "Datum: ",
+    "event_time": "Uhrzeit: ",
+    "event_description": "Beschreibung",
+    "assets": "Vermögen",
+    "host": "Gastgeber"
+  },
+  "comment_list_screen": {
+    "comments": "Kommentare",
+    "load_more_comments": "Mehr Kommentare Laden",
+    "write_your_comment": "Schreiben Sie Ihren Kommentar",
+    "team": "Team",
+    "delete": "Löschen",
+    "reply": "Antworten",
+    "cancel_reply": "Antwort Abbrechen"
+  },
+  "project_detail_screen": {
+    "attachments": "Anhänge",
+    "image": "Bild",
+    "files": "Dateien",
+    "show_media": "Medien Anzeigen  ->",
+    "file_images": "Dateien/Bilder",
+    "description": "Beschreibung",
+    "show_more": "Mehr Anzeigen",
+    "show_less": "Weniger Anzeigen",
+    "due_date": "Fälligkeitsdatum",
+    "tasks": "Aufgaben",
+    "team_leads": "Teamleiter",
+    "team_members": "Teammitglieder",
+    "view_all": "Alle Anzeigen  ->"
+  },
+  "project_list_screen": {
+    "projects": "Projekte",
+    "all": "Alle",
+    "in_progress": "In Bearbeitung",
+    "completed": "Abgeschlossen",
+    "on_hold": "In Wartestellung",
+    "cancelled": "Abgebrochen",
+    "not_started": "Nicht Gestartet"
+  },
+  "task_detail_screen": {
+    "attachments": "Anhänge",
+    "image": "Bild",
+    "files": "Dateien",
+    "show_media": "Medien Anzeigen  ->",
+    "file_images": "Dateien/Bilder",
+    "description": "Beschreibung",
+    "show_more": "Mehr Anzeigen",
+    "show_less": "Weniger Anzeigen",
+    "due_date": "Fälligkeitsdatum",
+    "tasks": "Aufgaben",
+    "team_leads": "Teamleiter",
+    "teams": "Teams",
+    "team_members": "Teammitglieder",
+    "view_all": "Alle Anzeigen  ->",
+    "checklists": "Checklisten",
+    "no_checklist_found": "Keine Checkliste Gefunden",
+    "comments": "Kommentare",
+    "mark_as_finish": "Als Abgeschlossen Markieren",
+    "checklist_complete": "Sind Sie sicher, dass Sie diese Aufgabe als abgeschlossen markieren möchten?",
+    "confirm": "Bestätigen",
+    "go_back": "Zurückgehen"
+  },
+  "task_list_screen": {
+    "tasks": "Aufgaben",
+    "all": "Alle",
+    "in_progress": "In Bearbeitung",
+    "completed": "Abgeschlossen",
+    "on_hold": "In Wartestellung",
+    "cancelled": "Abgebrochen",
+    "not_started": "Nicht Gestartet"
+  },
+  "project_screen": {
+    "project_management": "Projektmanagement",
+    "progress_current_task": "Fortschritt Aktuelle Aufgabe",
+    "task_completed": "Aufgabe Abgeschlossen",
+    "recent_projects": "Neueste Projekte",
+    "view_all": "Alle Anzeigen  ->",
+    "recent_tasks": "Neueste Aufgaben"
+  },
+  "loader": {
+    "loading": "Laden",
+    "requesting": "Anfordern",
+    "canceling": "Storniere, bitte warten..",
+    "signing_in": "Anmelden.."
+  }
+}

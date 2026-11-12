@@ -1,0 +1,458 @@
+{
+  "dashboard_screen": {
+    "home": "Accueil",
+    "leave": "Congé",
+    "attendance": "Présence",
+    "more": "Plus"
+  },
+  "welcome_screen": {
+    "verify_button": "Vérifier l'entreprise",
+    "skip": "Passer"
+  },
+  "login_screen": {
+    "login": "Connexion",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe",
+    "forget_password": "Mot de passe oublié",
+    "go_back": "<- Retourner"
+  },
+  "home_screen": {
+    "hello_there": "Bonjour",
+    "check_in": "Enregistrer",
+    "check_out": "Départ",
+    "present": "Présent",
+    "holidays": "Vacances",
+    "leave": "Congé",
+    "request": "Demande",
+    "projects": "Projets",
+    "awards": "Récompenses",
+    "training": "Formation",
+    "overview": "Aperçu",
+    "upcoming_holiday": "Prochaine vacance",
+    "recent_award": "Récompense récente",
+    "task": "Tâche",
+    "show_all": "Tout montrer",
+    "view_all": "Voir tout",
+    "weekly": "Hebdomadaire",
+    "reports": "Rapports",
+    "my_team": "Mon équipe",
+    "sun": "Dim",
+    "mon": "Lun",
+    "tue": "Mar",
+    "wed": "Mer",
+    "thu": "Jeu",
+    "fri": "Ven",
+    "sat": "Sam",
+    "note": "Note (Optionnel)"
+  },
+  "leave_screen": {
+    "leave": "Congé",
+    "issue_leave": "Émettre un congé",
+    "time_leave": "Congé de temps",
+    "recent_leave_activity": "Activité récente de congé",
+    "this_month": "Ce mois",
+    "this_year": "Cette année",
+    "filter": "Filtre",
+    "apply_leave": "Demander un congé",
+    "select_start_date": "Sélectionner la date de début",
+    "select_end_date": "Sélectionner la date de fin",
+    "reason": "Raison",
+    "request_leave": "Demander un congé",
+    "select_date": "Sélectionner la date",
+    "select_start_time": "Sélectionner l'heure de début",
+    "select_end_time": "Sélectionner l'heure de fin",
+    "select_leave_type": "Sélectionner le type de congé"
+  },
+  "attendance_screen": {
+    "check_in": "Enregistrer",
+    "check_out": "Départ",
+    "attendance_history": "Historique de présence",
+    "date": "Date",
+    "day": "Jour",
+    "start_time": "Heure de début",
+    "end_time": "Heure de fin",
+    "present_days": "Jours présents",
+    "worked_hours": "Heures travaillées",
+    "undertime": "Temps insuffisant",
+    "overtime": "Heures supplémentaires",
+    "attendance_summary": "Résumé des présences"
+  },
+  "more_screen": {
+    "attendance_default_method": "Enregistrer",
+    "default": "Défaut",
+    "nfc": "NFC",
+    "add_nfc": "Ajouter NFC",
+    "qr_code": "QR Code",
+    "account": "Compte",
+    "profile": "Profil",
+    "team_sheet": "Feuille d'équipe",
+    "project_management": "Gestion de projet",
+    "change_password": "Changer le mot de passe",
+    "awards": "Récompenses",
+    "training": "Formations",
+    "holiday": "Vacances",
+    "notices": "Avis",
+    "meeting": "Réunion",
+    "leave_calendar": "Calendrier de bureau",
+    "tada": "TADA",
+    "payslip": "Bulletin de paie",
+    "advance_salary": "Avance de salaire",
+    "loans": "Prêts",
+    "support": "Support",
+    "company_rules": "Règles de l'entreprise",
+    "about_us": "À propos de nous",
+    "terms_and_conditions": "Termes et conditions",
+    "privacy_policy": "Politique de confidentialité",
+    "dark_mode": "Mode sombre",
+    "animation": "Animation",
+    "finance": "Finance",
+    "additional": "Supplémentaire",
+    "office_desk": "Bureau",
+    "others": "Autres",
+    "log_out": "Se déconnecter"
+  },
+  "general_screen": {
+    "notification_detail": "Détail de la notification",
+    "published_date": "Date de publication"
+  },
+  "advance_detail_screen": {
+    "advance_detail": "Détail de l'avance",
+    "total": "Total",
+    "rs": "Rs",
+    "requested_amount": "Montant demandé",
+    "released_amount": "Montant versé",
+    "is_settled": "Est réglé",
+    "no": "non",
+    "yes": "oui",
+    "reason": "raison",
+    "verified_by": "Vérifié par",
+    "remarks": "Remarques"
+  },
+  "advance_salary_screen": {
+    "advance_salary": "Avance de salaire"
+  },
+  "create_salary_screen": {
+    "create_advance_salary": "Créer une avance de salaire",
+    "submit": "Soumettre",
+    "reason": "Raison",
+    "expected_amount": "Montant attendu"
+  },
+  "edit_salary_screen": {
+    "edit_advance_salary": "Modifier l'avance de salaire",
+    "edit": "Modifier",
+    "reason": "Raison",
+    "expected_amount": "Montant attendu"
+  },
+  "award_detail_screen": {
+    "award_detail": "Détail de la récompense",
+    "awarded_by": "Récompensé par",
+    "gift_detail": "Détail du cadeau"
+  },
+  "award_screen": {
+    "award": "Récompense",
+    "total_awards": "Total des récompenses",
+    "recent_achievement": "Récent accomplissement",
+    "rewcode": "REWCODE",
+    "all_achievement": "Tous les accomplissements",
+    "awarded_by": "Récompensé par"
+  },
+  "create_loan_screen": {
+    "request_loan": "Demander un prêt",
+    "submit": "Soumettre",
+    "expected_loan_amount": "Montant de prêt attendu",
+    "expected_installment_period": "Période de remboursement attendue",
+    "loan_detail": "Détail du prêt"
+  },
+  "edit_loan_screen": {
+    "edit_requested_loan": "Modifier le prêt demandé",
+    "submit": "Soumettre",
+    "expected_loan_amount": "Montant de prêt attendu",
+    "expected_installment_period": "Période de remboursement attendue",
+    "loan_detail": "Détail du prêt"
+  },
+  "loan_detail_screen": {
+    "loan_detail": "Détail du prêt",
+    "total": "Total",
+    "remarks": "Remarques",
+    "verified_by": "Vérifié par",
+    "is_settled": "Est réglé",
+    "requested_amount": "Montant demandé",
+    "granted_amount": "Montant accordé",
+    "installment_period": "Période de remboursement",
+    "interest_rate": "Taux d'intérêt"
+  },
+  "loan_list_screen": {
+    "loan": "Prêt"
+  },
+  "change_password_screen": {
+    "change_password": "Changer le mot de passe",
+    "old_password": "Ancien mot de passe",
+    "new_password": "Nouveau mot de passe",
+    "confirm_password": "Confirmer le mot de passe"
+  },
+  "chat_screen": {
+    "send_message": "Envoyer un message"
+  },
+  "group_chat_screen": {
+    "send_message": "Envoyer un message"
+  },
+  "company_rules_screen": {
+    "company_rules": "Règles de l'entreprise"
+  },
+  "edit_profile_screen": {
+    "edit_profile": "Modifier le profil",
+    "update": "Mettre à jour",
+    "change": "Modifier",
+    "fullname": "Nom complet",
+    "email": "Email",
+    "address": "Adresse",
+    "phone_number": "Numéro de téléphone",
+    "dob": "Date de naissance",
+    "gender": "Genre",
+    "male": "Homme",
+    "female": "Femme",
+    "other": "Autre"
+  },
+  "employee_detail_screen": {
+    "profile": "Profil",
+    "basic_details": "Détails de base",
+    "change": "Modifier",
+    "fullname": "Nom complet",
+    "username": "Nom d'utilisateur",
+    "address": "Adresse",
+    "phone_number": "Numéro de téléphone",
+    "dob": "Date de naissance",
+    "gender": "Genre",
+    "company_details": "Détails de l'entreprise",
+    "job_position": "Poste",
+    "branch": "Agence",
+    "department": "Département",
+    "employment_type": "Type d'emploi",
+    "joined_date": "Date d'entrée",
+    "achievements": "Accomplissements"
+  },
+  "holiday_screen": {
+    "holidays": "Vacances",
+    "upcoming": "À venir",
+    "past": "Passé"
+  },
+  "leave_calendar_screen": {
+    "leave_calendar": "Calendrier de bureau",
+    "leave_list": "Liste des congés"
+  },
+  "meeting_detail_screen": {
+    "meeting_detail": "Détail de la réunion",
+    "date": "Date",
+    "participants": "Participants"
+  },
+  "meeting_list_screen": {
+    "meeting_detail": "Réunions",
+    "venue": "Lieu",
+    "participants": "Plus"
+  },
+  "notice_screen": {
+    "notices": "Avis"
+  },
+  "notification_screen": {
+    "notifications": "Notifications"
+  },
+  "payslipdetail_screen": {
+    "emp_id": "ID Employé",
+    "earnings": "Gains",
+    "deductions": "Déductions",
+    "actual_salary": "Salaire réel",
+    "advance_salary": "Salaire anticipé",
+    "absent_deduction": "Déduction pour absence",
+    "tada": "TADA",
+    "overtime": "Heures supplémentaires",
+    "undertime": "Heures non travaillées",
+    "net_salary": "Salaire net",
+    "joining_date": "Date d'entrée"
+  },
+  "payslip_screen": {
+    "payslip": "Bulletin de paie",
+    "request_payslip": "Demander le bulletin de paie",
+    "result": "Résultat"
+  },
+  "profile_screen": {
+    "profile": "Profil",
+    "basic_details": "Détails de base",
+    "change": "Modifier",
+    "fullname": "Nom complet",
+    "username": "Nom d'utilisateur",
+    "address": "Adresse",
+    "phone_number": "Numéro de téléphone",
+    "dob": "Date de naissance",
+    "gender": "Genre",
+    "company_details": "Détails de l'entreprise",
+    "job_position": "Poste",
+    "branch": "Agence",
+    "department": "Département",
+    "employment_type": "Type d'emploi",
+    "joined_date": "Date d'entrée",
+    "bank_name": "Nom de la banque",
+    "bank_details": "Détails bancaires",
+    "account_number": "Numéro de compte",
+    "account_type": "Type de compte"
+  },
+  "support_detail_screen": {
+    "payslip": "Détail du support",
+    "description": "Description",
+    "assigned_to": "Assigné à",
+    "solved_by": "Résolu par",
+    "solved_at": "Résolu à"
+  },
+  "support_list_screen": {
+    "my_tickets": "Mes tickets",
+    "all": "Tous",
+    "pending": "En attente",
+    "in_progress": "En cours",
+    "solved": "Résolu",
+    "issue_to": "Problème à"
+  },
+  "support_screen": {
+    "support": "Support",
+    "help_desk": "Service d'assistance",
+    "contact_us": "Contactez-nous si un problème ou une plainte\\ndoit être adressé.",
+    "select_department_type": "Sélectionner le type de département",
+    "title": "Titre",
+    "description": "Description",
+    "submit": "Soumettre"
+  },
+  "team_sheet_screen": {
+    "team_sheet": "Feuille d'équipe"
+  },
+  "create_tada_screen": {
+    "create_tada": "Créer TADA",
+    "submit": "Soumettre",
+    "title": "Titre",
+    "total_expenses": "Total des dépenses",
+    "add_attachment": "Ajouter une pièce jointe",
+    "description": "Description"
+  },
+  "edit_tada_screen": {
+    "edit_tada": "Modifier TADA",
+    "submit": "Soumettre",
+    "title": "Titre",
+    "total_expenses": "Total des dépenses",
+    "attachment": "Pièce jointe",
+    "add_attachment": "Ajouter une pièce jointe",
+    "description": "Description"
+  },
+  "tada_detail_screen": {
+    "tada_detail": "Détail de TADA",
+    "total": "Total",
+    "rs": "Rs",
+    "title": "Titre",
+    "attachment": "Pièce jointe",
+    "show_media": "Afficher les médias",
+    "verified_by": "Vérifié par",
+    "description": "Description"
+  },
+  "tada_list_screen": {
+    "tada": "TADA"
+  },
+  "common": {
+    "cancel_leave": "Annuler le congé",
+    "confirm": "Confirmer",
+    "cancel_leave_alert": "Êtes-vous sûr de vouloir annuler le congé ?",
+    "log_out_alert": "Êtes-vous sûr de vouloir vous déconnecter de l'application ?",
+    "scan_nfc": "Balayage des étiquettes NFC",
+    "log_out": "Se déconnecter",
+    "close": "Fermer",
+    "go_back": "Retour",
+    "language": "Langue",
+    "select_language": "Sélectionner la langue",
+    "total": "Total",
+    "leave": "Congé",
+    "holiday": "Jour férié",
+    "birthday": "Anniversaire",
+    "office_events": "Événements de bureau",
+    "events": "Événements",
+    "location": "Emplacement : ",
+    "event_date": "Date : ",
+    "event_time": "Heure : ",
+    "event_description": "Description",
+    "assets": "Actifs",
+    "host": "Hôte"
+  },
+  "comment_list_screen": {
+    "comments": "Commentaires",
+    "load_more_comments": "Charger plus de commentaires",
+    "write_your_comment": "Écrire votre commentaire",
+    "team": "Équipe",
+    "delete": "Supprimer",
+    "reply": "Répondre",
+    "cancel_reply": "Annuler la réponse"
+  },
+  "project_detail_screen": {
+    "attachments": "Pièces jointes",
+    "image": "Image",
+    "files": "Fichiers",
+    "show_media": "Afficher les médias  ->",
+    "file_images": "Fichiers/Images",
+    "description": "Description",
+    "show_more": "Afficher plus",
+    "show_less": "Afficher moins",
+    "due_date": "Date d'échéance",
+    "tasks": "Tâches",
+    "team_leads": "Chef(s) d'équipe",
+    "team_members": "Membre(s) de l'équipe",
+    "view_all": "Voir tout  ->"
+  },
+  "project_list_screen": {
+    "projects": "Projets",
+    "all": "Tous",
+    "in_progress": "En cours",
+    "completed": "Complété",
+    "on_hold": "En attente",
+    "cancelled": "Annulé",
+    "not_started": "Non commencé"
+  },
+  "task_detail_screen": {
+    "attachments": "Pièces jointes",
+    "image": "Image",
+    "files": "Fichiers",
+    "show_media": "Afficher les médias  ->",
+    "file_images": "Fichiers/Images",
+    "description": "Description",
+    "show_more": "Afficher plus",
+    "show_less": "Afficher moins",
+    "due_date": "Date d'échéance",
+    "tasks": "Tâches",
+    "team_leads": "Chef(s) d'équipe",
+    "teams": "Équipes",
+    "team_members": "Membre(s) de l'équipe",
+    "view_all": "Voir tout  ->",
+    "checklists": "Listes de contrôle",
+    "no_checklist_found": "Aucune liste de contrôle trouvée",
+    "comments": "Commentaires",
+    "mark_as_finish": "Marquer comme terminé",
+    "checklist_complete": "Êtes-vous sûr de vouloir marquer cette tâche comme terminée?",
+    "confirm": "Confirmer",
+    "go_back": "Retour"
+  },
+  "task_list_screen": {
+    "tasks": "Tâches",
+    "all": "Tous",
+    "in_progress": "En cours",
+    "completed": "Complété",
+    "on_hold": "En attente",
+    "cancelled": "Annulé",
+    "not_started": "Non commencé"
+  },
+  "project_screen": {
+    "project_management": "Gestion de projet",
+    "progress_current_task": "Progression de la tâche actuelle",
+    "task_completed": "Tâche terminée",
+    "recent_projects": "Projets récents",
+    "view_all": "Voir tout  ->",
+    "recent_tasks": "Tâches récentes"
+  },
+  "loader": {
+    "loading": "Chargement",
+    "requesting": "Demande en cours",
+    "canceling": "Annulation en cours, veuillez patienter..",
+    "signing_in": "Connexion en cours.."
+  }
+}

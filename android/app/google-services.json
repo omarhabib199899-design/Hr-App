@@ -1,0 +1,194 @@
+{
+  "project_info": {
+    "project_number": "255239208693",
+    "project_id": "cn-attendance",
+    "storage_bucket": "cn-attendance.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255239208693:android:73f0814a06131667b2cfbc",
+        "android_client_info": {
+          "package_name": "com.cninfotech.cninfotech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255239208693-2fgtmshl1unui0gk8ae7sgi4jq22hsrn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cninfotech.cninfotech",
+            "certificate_hash": "a12525da8bac459d5dc3e9ef407e8afa87fbe883"
+          }
+        },
+        {
+          "client_id": "255239208693-bhcd8dounlt9e5otj18kl5ilio9krnst.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cninfotech.cninfotech",
+            "certificate_hash": "71c041cb65818d6ce9794b975207635f84c09ebf"
+          }
+        },
+        {
+          "client_id": "255239208693-hqc76pk21g3523vr8ncg1jfsp2rclsol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbjU0JPWd0JRfs-cyKR1-xr8fzFuGpgrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255239208693-hqc76pk21g3523vr8ncg1jfsp2rclsol.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "255239208693-b5ib0j3ug8ppfutje9vtk0j3ac8sabiv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cninfotech.cnattendance.v2"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255239208693:android:9e0da479595a19b8b2cfbc",
+        "android_client_info": {
+          "package_name": "com.cninfotech.digitalHR"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255239208693-gjb67ajni8hjaoopcdhflvbiu2uog773.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cninfotech.digitalHR",
+            "certificate_hash": "7a310772e8486adc0b358edd27cf1b615f3727ad"
+          }
+        },
+        {
+          "client_id": "255239208693-jhbgps5lhda6shhf57fnfcg66m9st9lq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cninfotech.digitalHR",
+            "certificate_hash": "a12525da8bac459d5dc3e9ef407e8afa87fbe883"
+          }
+        },
+        {
+          "client_id": "255239208693-pf27r92tv8vd9ldhkn9ddtogrtqmnqsf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cninfotech.digitalHR",
+            "certificate_hash": "71c041cb65818d6ce9794b975207635f84c09ebf"
+          }
+        },
+        {
+          "client_id": "255239208693-hqc76pk21g3523vr8ncg1jfsp2rclsol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbjU0JPWd0JRfs-cyKR1-xr8fzFuGpgrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255239208693-hqc76pk21g3523vr8ncg1jfsp2rclsol.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "255239208693-b5ib0j3ug8ppfutje9vtk0j3ac8sabiv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cninfotech.cnattendance.v2"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255239208693:android:413d129fac171d66b2cfbc",
+        "android_client_info": {
+          "package_name": "com.cninfotech.digitalhrs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255239208693-hqc76pk21g3523vr8ncg1jfsp2rclsol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbjU0JPWd0JRfs-cyKR1-xr8fzFuGpgrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255239208693-hqc76pk21g3523vr8ncg1jfsp2rclsol.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "255239208693-b5ib0j3ug8ppfutje9vtk0j3ac8sabiv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cninfotech.cnattendance.v2"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255239208693:android:56c8db035b51c9c0b2cfbc",
+        "android_client_info": {
+          "package_name": "com.cyclonenepal.digitalhrs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255239208693-hqc76pk21g3523vr8ncg1jfsp2rclsol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbjU0JPWd0JRfs-cyKR1-xr8fzFuGpgrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255239208693-hqc76pk21g3523vr8ncg1jfsp2rclsol.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "255239208693-b5ib0j3ug8ppfutje9vtk0j3ac8sabiv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cninfotech.cnattendance.v2"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

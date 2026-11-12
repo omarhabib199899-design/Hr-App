@@ -1,0 +1,462 @@
+{
+  "dashboard_screen": {
+    "home": "Home",
+    "leave": "Leave",
+    "attendance": "Attendance",
+    "more": "More"
+  },
+  "welcome_screen": {
+    "verify_button": "Verify Company",
+    "skip": "Skip"
+  },
+  "login_screen": {
+    "login": "Login",
+    "username": "Username",
+    "password": "Password",
+    "forget_password": "Forget Password",
+    "go_back": "<- Go Back"
+  },
+  "home_screen": {
+    "hello_there": "Hello There",
+    "check_in": "Check In",
+    "check_out": "Check Out",
+    "present": "Present",
+    "holidays": "Holidays",
+    "leave": "Leave",
+    "request": "Request",
+    "projects": "Projects",
+    "awards": "Awards",
+    "training": "Training",
+    "event": "Event",
+    "overview": "Overview",
+    "upcoming_holiday": "Upcoming Holiday",
+    "recent_award": "Recent Award",
+    "task": "Task",
+    "show_all": "Show All",
+    "view_all": "View All",
+    "weekly": "Weekly",
+    "reports": "Reports",
+    "my_team": "My Team",
+    "sun": "Sun",
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat",
+    "note": "Note(Optional)"
+  },
+  "leave_screen": {
+    "leave": "Leave",
+    "issue_leave": "Issue Leave",
+    "time_leave": "Time Leave",
+    "recent_leave_activity": "Recent Leave Activity",
+    "this_month": "This Month",
+    "this_year": "This Year",
+    "filter": "Filter",
+    "apply_leave": "Apply Leave",
+    "select_start_date": "Select Start Date",
+    "select_end_date": "Select End Date",
+    "reason": "Reason",
+    "request_leave": "Request Leave",
+    "select_date": "Select Date",
+    "select_start_time": "Select Start Time",
+    "select_end_time": "Select End Time",
+    "select_leave_type": "Select Leave Type"
+  },
+  "attendance_screen": {
+    "check_in": "Check In",
+    "check_out": "Check Out",
+    "attendance_history": "Attendance History",
+    "date": "Date",
+    "day": "Day",
+    "start_time": "Start Time",
+    "end_time": "End Time",
+    "present_days": "Present Days",
+    "worked_hours": "Worked Hours",
+    "working_hours": "Working Hours",
+    "undertime": "Undertime",
+    "overtime": "Overtime",
+    "attendance_summary": "Attendance Summary"
+  },
+  "more_screen": {
+    "attendance_default_method": "Check In",
+    "default": "Default",
+    "nfc": "NFC",
+    "add_nfc": "Add NFC",
+    "qr_code": "QR Code",
+    "account": "Account",
+    "profile": "Profile",
+    "team_sheet": "Team Sheet",
+    "project_management": "Project Management",
+    "change_password": "Change Password",
+    "awards": "Awards",
+    "training": "Trainings",
+    "holiday": "Holidays",
+    "notices": "Notices",
+    "meeting": "Meeting",
+    "leave_calendar": "Office Calendar",
+    "tada": "TADA",
+    "payslip": "Payslip",
+    "advance_salary": "Advance Salary",
+    "loans": "Loans",
+    "support": "Support",
+    "company_rules": "Company Rules",
+    "about_us": "About Us",
+    "terms_and_conditions": "Terms and Conditions",
+    "privacy_policy": "Privacy Policy",
+    "dark_mode": "Dark Mode",
+    "animation": "Animation",
+    "finance": "Finance",
+    "additional": "Additional",
+    "office_desk": "Office Desk",
+    "others": "Others",
+    "warning": "Warning",
+    "complain": "Complain",
+    "log_out": "Log Out"
+  },
+  "general_screen": {
+    "notification_detail": "Notification Detail",
+    "published_date": "Published Date"
+  },
+  "advance_detail_screen": {
+    "advance_detail": "Advance Detail",
+    "total": "Total",
+    "rs": "Rs",
+    "requested_amount": "Requested Amount",
+    "released_amount": "Released Amount",
+    "is_settled": "Is Settled",
+    "no": "no",
+    "yes": "yes",
+    "reason": "Reason",
+    "verified_by": "Verified By",
+    "remarks": "Remarks"
+  },
+  "advance_salary_screen": {
+    "advance_salary": "Advance Salary"
+  },
+  "create_salary_screen": {
+    "create_advance_salary": "Create Advance Salary",
+    "submit": "Submit",
+    "reason": "Reason",
+    "expected_amount": "Expected Amount"
+  },
+  "edit_salary_screen": {
+    "edit_advance_salary": "Edit Advance Salary",
+    "edit": "Edit",
+    "reason": "Reason",
+    "expected_amount": "Expected Amount"
+  },
+  "award_detail_screen": {
+    "award_detail": "Award Detail",
+    "awarded_by": "Awarded By",
+    "gift_detail": "Gift Detail"
+  },
+  "award_screen": {
+    "award": "Award",
+    "total_awards": "Total Awards Received",
+    "recent_achievement": "Recent Achievement",
+    "rewcode": "REWCODE",
+    "all_achievement": "All Achievements",
+    "awarded_by": "Awarded By"
+  },
+  "create_loan_screen": {
+    "request_loan": "Request Loan",
+    "submit": "Submit",
+    "expected_loan_amount": "Expected Loan Amount",
+    "expected_installment_period": "Expected Installment Period",
+    "loan_detail": "Loan Detail"
+  },
+  "edit_loan_screen": {
+    "edit_requested_loan": "Edit Requested Loan",
+    "submit": "Submit",
+    "expected_loan_amount": "Expected Loan Amount",
+    "expected_installment_period": "Expected Installment Period",
+    "loan_detail": "Loan Detail"
+  },
+  "loan_detail_screen": {
+    "loan_detail": "Loan Detail",
+    "total": "Total",
+    "remarks": "Remarks",
+    "verified_by": "Verified By",
+    "is_settled": "Is Settled",
+    "requested_amount": "Requested Amount",
+    "granted_amount": "Granted Amount",
+    "installment_period": "Installment Period",
+    "interest_rate": "Interest Rate"
+  },
+  "loan_list_screen": {
+    "loan": "Loan"
+  },
+  "change_password_screen": {
+    "change_password": "Change Password",
+    "old_password": "Old Password",
+    "new_password": "New Password",
+    "confirm_password": "Confirm Password"
+  },
+  "chat_screen": {
+    "send_message": "Send Message"
+  },
+  "group_chat_screen": {
+    "send_message": "Send Message"
+  },
+  "company_rules_screen": {
+    "company_rules": "Company Rules"
+  },
+  "edit_profile_screen": {
+    "edit_profile": "Edit Profile",
+    "update": "Update",
+    "change": "Change",
+    "fullname": "Fullname",
+    "email": "Email",
+    "address": "Address",
+    "phone_number": "Phone number",
+    "dob": "Date of Birth",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other"
+  },
+  "employee_detail_screen": {
+    "profile": "Profile",
+    "basic_details": "Basic Details",
+    "change": "Change",
+    "fullname": "Fullname",
+    "username": "Username",
+    "address": "Address",
+    "phone_number": "Phone number",
+    "dob": "Date of Birth",
+    "gender": "Gender",
+    "company_details": "Company Details",
+    "job_position": "Job Position",
+    "branch": "Branch",
+    "department": "Department",
+    "employment_type": "Employment Type",
+    "joined_date": "Joined Date",
+    "achievements": "Achievements"
+  },
+  "holiday_screen": {
+    "holidays": "Holidays",
+    "upcoming": "Upcoming",
+    "past": "Past"
+  },
+  "leave_calendar_screen": {
+    "leave_calendar": "Office Calendar",
+    "leave_list": "Leave List"
+  },
+  "meeting_detail_screen": {
+    "meeting_detail": "Meeting Detail",
+    "date": "Date",
+    "participants": "Participants"
+  },
+  "meeting_list_screen": {
+    "meeting_detail": "Meetings",
+    "venue": "Venue",
+    "participants": "More"
+  },
+  "notice_screen": {
+    "notices": "Notices"
+  },
+  "notification_screen": {
+    "notifications": "Notifications"
+  },
+  "payslipdetail_screen": {
+    "emp_id": "Emp Id",
+    "earnings": "Earnings",
+    "deductions": "Deductions",
+    "actual_salary": "Actual Salary",
+    "advance_salary": "Advance Salary",
+    "absent_deduction": "Absent Deduction",
+    "tada": "TADA",
+    "overtime": "Overtime",
+    "undertime": "Undertime",
+    "net_salary": "Net Salary",
+    "joining_date": "Joining Date"
+  },
+  "payslip_screen": {
+    "payslip": "PaySlip",
+    "request_payslip": "Request Payslip",
+    "result": "Result"
+  },
+  "profile_screen": {
+    "profile": "Profile",
+    "basic_details": "Basic Details",
+    "change": "Change",
+    "fullname": "Fullname",
+    "username": "Username",
+    "address": "Address",
+    "phone_number": "Phone Number",
+    "dob": "Date of Birth",
+    "gender": "Gender",
+    "company_details": "Company Details",
+    "job_position": "Job Position",
+    "branch": "Branch",
+    "department": "Department",
+    "employment_type": "Employment Type",
+    "joined_date": "Joined Date",
+    "bank_name": "Bank Name",
+    "bank_details": "Bank Details",
+    "account_number": "Account Number",
+    "account_type": "Account Type"
+  },
+  "support_detail_screen": {
+    "payslip": "Support Detail",
+    "description": "Description",
+    "assigned_to": "Assigned To",
+    "solved_by": "Solved By",
+    "solved_at": "Solved At"
+  },
+  "support_list_screen": {
+    "my_tickets": "My Tickets",
+    "all": "All",
+    "pending": "Pending",
+    "in_progress": "In Progress",
+    "solved": "Solved",
+    "issue_to": "Issue to"
+  },
+  "support_screen": {
+    "support": "Support",
+    "help_desk": "Help Desk",
+    "contact_us": "Contact Us if any problem or complains\\nneed to be addressed.",
+    "select_department_type": "Select Department Type",
+    "title": "Title",
+    "description": "Description",
+    "submit": "Submit"
+  },
+  "team_sheet_screen": {
+    "team_sheet": "Team Sheet"
+  },
+  "create_tada_screen": {
+    "create_tada": "Create TADA",
+    "submit": "Submit",
+    "title": "title",
+    "total_expenses": "Total Expenses",
+    "add_attachment": "Add Attachment",
+    "description": "Description"
+  },
+  "edit_tada_screen": {
+    "edit_tada": "Edit TADA",
+    "submit": "Submit",
+    "title": "title",
+    "total_expenses": "Total Expenses",
+    "attachment": "Attachment",
+    "add_attachment": "Add Attachment",
+    "description": "Description"
+  },
+  "tada_detail_screen": {
+    "tada_detail": "TADA Detail",
+    "total": "total",
+    "rs": "Rs",
+    "title": "title",
+    "attachment": "Attachment",
+    "show_media": "Show Media",
+    "verified_by": "Verified By",
+    "description": "Description"
+  },
+  "tada_list_screen": {
+    "tada": "TADA"
+  },
+  "common": {
+    "cancel_leave": "Cancel Leave",
+    "confirm": "Confirm",
+    "cancel_leave_alert": "Are you sure you wanna cancel the leave?",
+    "log_out_alert": "Are you sure you wanna logout from the application?",
+    "scan_nfc": "Scanning for NFC Tags",
+    "log_out": "Log Out",
+    "close": "Close",
+    "go_back": "Go Back",
+    "language": "Language",
+    "select_language": "Select Language",
+    "total": "Total",
+    "leave": "Leave",
+    "holiday": "Holiday",
+    "birthday": "Birthday",
+    "office_events": "Office Events",
+    "events": "Events",
+    "location": "Location: ",
+    "event_date": "Date: ",
+    "event_time": "Time: ",
+    "event_description": "Description",
+    "assets": "Assets",
+    "host": "Host"
+  },
+  "comment_list_screen": {
+    "comments": "Comments",
+    "load_more_comments": "Load More Comments",
+    "write_your_comment": "Write your Comment",
+    "team": "Team",
+    "delete": "Delete",
+    "reply": "Reply",
+    "cancel_reply": "Cancel Reply"
+  },
+  "project_detail_screen": {
+    "attachments": "Attachments",
+    "image": "Image",
+    "files": "Files",
+    "show_media": "Show Media  ->",
+    "file_images": "Files/Images",
+    "description": "Description",
+    "show_more": "Show more",
+    "show_less": "Show less",
+    "due_date": "Due Date",
+    "tasks": "Tasks",
+    "team_leads": "Team Lead(s)",
+    "team_members": "Team Member(s)",
+    "view_all": "View All  ->"
+  },
+  "project_list_screen": {
+    "projects": "Projects",
+    "all": "All",
+    "in_progress": "In Progress",
+    "completed": "Completed",
+    "on_hold": "On Hold",
+    "cancelled": "Cancelled",
+    "not_started": "Not Started"
+  },
+  "task_detail_screen": {
+    "attachments": "Attachments",
+    "image": "Image",
+    "files": "Files",
+    "show_media": "Show Media  ->",
+    "file_images": "Files/Images",
+    "description": "Description",
+    "show_more": "Show more",
+    "show_less": "Show less",
+    "due_date": "Due Date",
+    "tasks": "Tasks",
+    "team_leads": "Team Lead(s)",
+    "teams": "Teams",
+    "team_members": "Team Member(s)",
+    "view_all": "View All  ->",
+    "checklists": "Checklists",
+    "no_checklist_found": "No CheckList Found",
+    "comments": "Comments",
+    "mark_as_finish": "Mark as Finish",
+    "checklist_complete": "Are you sure you want to mark this task as completed?",
+    "confirm": "Confirm",
+    "go_back": "Go back"
+  },
+  "task_list_screen": {
+    "tasks": "Tasks",
+    "all": "All",
+    "in_progress": "In Progress",
+    "completed": "Completed",
+    "on_hold": "On Hold",
+    "cancelled": "Cancelled",
+    "not_started": "Not Started"
+  },
+  "project_screen": {
+    "project_management": "Project Management",
+    "progress_current_task": "Progress Current Project",
+    "task_completed": "Project Completed",
+    "recent_projects": "Recent Projects",
+    "view_all": "View All  ->",
+    "recent_tasks": "Recent Tasks"
+  },
+  "loader": {
+    "loading": "Loading",
+    "requesting": "Requesting",
+    "canceling": "Canceling, Please Wait..",
+    "signing_in": "Signing in.."
+  }
+}

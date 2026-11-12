@@ -1,0 +1,457 @@
+{
+  "dashboard_screen": {
+    "home": "होम",
+    "leave": "छुट्टी",
+    "attendance": "उपस्थिति",
+    "more": "अधिक"
+  },
+  "welcome_screen": {
+    "verify_button": "कंपनी को सत्यापित करें",
+    "skip": "छोड़ें"
+  },
+  "login_screen": {
+    "login": "लॉग इन",
+    "username": "उपयोगकर्ता नाम",
+    "password": "पासवर्ड",
+    "forget_password": "पासवर्ड भूल गए",
+    "go_back": "<- वापस जाएं"
+  },
+  "home_screen": {
+    "hello_there": "नमस्ते",
+    "check_in": "चेक इन",
+    "check_out": "चेक आउट",
+    "present": "वर्तमान",
+    "holidays": "छुट्टियाँ",
+    "leave": "छुट्टी",
+    "request": "अनुरोध",
+    "projects": "परियोजनाएं",
+    "awards": "पुरस्कार",
+    "training": "प्रशिक्षण",
+    "overview": "अवलोकन",
+    "upcoming_holiday": "आगामी छुट्टी",
+    "recent_award": "हाल का पुरस्कार",
+    "task": "कार्य",
+    "show_all": "सभी दिखाएं",
+    "view_all": "सभी देखें",
+    "weekly": "साप्ताहिक",
+    "reports": "रिपोर्ट्स",
+    "my_team": "मेरी टीम",
+    "sun": "रवि",
+    "mon": "सोम",
+    "tue": "मंगल",
+    "wed": "बुध",
+    "thu": "गुरु",
+    "fri": "शुक्र",
+    "sat": "शनि",
+    "note": "टिप्पणी (वैकल्पिक)"
+  },
+  "leave_screen": {
+    "leave": "छुट्टी",
+    "issue_leave": "छुट्टी जारी करें",
+    "time_leave": "समय छुट्टी",
+    "recent_leave_activity": "हाल की छुट्टी गतिविधि",
+    "this_month": "इस महीने",
+    "this_year": "इस साल",
+    "filter": "फ़िल्टर",
+    "apply_leave": "छुट्टी आवेदन करें",
+    "select_start_date": "प्रारंभ तिथि चुनें",
+    "select_end_date": "समाप्ति तिथि चुनें",
+    "reason": "कारण",
+    "request_leave": "छुट्टी का अनुरोध करें",
+    "select_date": "तिथि चुनें",
+    "select_start_time": "प्रारंभ समय चुनें",
+    "select_end_time": "समाप्ति समय चुनें",
+    "select_leave_type": "छुट्टी का प्रकार चुनें"
+  },
+  "attendance_screen": {
+    "check_in": "चेक इन",
+    "check_out": "चेक आउट",
+    "attendance_history": "उपस्थिति इतिहास",
+    "date": "तारीख",
+    "day": "दिन",
+    "start_time": "प्रारंभ समय",
+    "end_time": "समाप्ति समय",
+    "present_days": "उपस्थित दिन",
+    "worked_hours": "काम के घंटे",
+    "undertime": "समय की कमी",
+    "overtime": "अतिरिक्त समय",
+    "attendance_summary": "उपस्थिति सारांश"
+  },
+  "more_screen": {
+    "attendance_default_method": "चेक इन",
+    "default": "डिफ़ॉल्ट",
+    "nfc": "एनएफसी",
+    "add_nfc": "एनएफसी जोड़ें",
+    "qr_code": "क्यूआर कोड",
+    "account": "खाता",
+    "profile": "प्रोफ़ाइल",
+    "team_sheet": "टीम शीट",
+    "project_management": "प्रोजेक्ट प्रबंधन",
+    "change_password": "पासवर्ड बदलें",
+    "awards": "पुरस्कार",
+    "training": "प्रशिक्षण",
+    "holiday": "छुट्टियाँ",
+    "notices": "सूचनाएँ",
+    "meeting": "मीटिंग",
+    "leave_calendar": "कार्यालय कैलेंडर",
+    "tada": "TADA",
+    "payslip": "पेस्लिप",
+    "advance_salary": "अग्रिम वेतन",
+    "loans": "ऋण",
+    "support": "समर्थन",
+    "company_rules": "कंपनी के नियम",
+    "about_us": "हमारे बारे में",
+    "terms_and_conditions": "नियम और शर्तें",
+    "privacy_policy": "गोपनीयता नीति",
+    "dark_mode": "डार्क मोड",
+    "animation": "एनिमेशन",
+    "finance": "वित्त",
+    "additional": "अतिरिक्त",
+    "office_desk": "ऑफिस डेस्क",
+    "others": "अन्य",
+    "log_out": "लॉग आउट"
+  },
+  "general_screen": {
+    "notification_detail": "सूचना विवरण",
+    "published_date": "प्रकाशित तिथि"
+  },
+  "advance_detail_screen": {
+    "advance_detail": "अग्रिम विवरण",
+    "total": "कुल",
+    "rs": "रु",
+    "requested_amount": "अनुरोधित राशि",
+    "released_amount": "जारी की गई राशि",
+    "is_settled": "निपटाया गया है",
+    "no": "नहीं",
+    "yes": "हाँ",
+    "reason": "कारण",
+    "verified_by": "सत्यापित किया गया",
+    "remarks": "टिप्पणियाँ"
+  },
+  "advance_salary_screen": {
+    "advance_salary": "अग्रिम वेतन"
+  },
+  "create_salary_screen": {
+    "create_advance_salary": "अग्रिम वेतन बनाएं",
+    "submit": "प्रस्तुत",
+    "reason": "कारण",
+    "expected_amount": "अपेक्षित राशि"
+  },
+  "edit_salary_screen": {
+    "edit_advance_salary": "अग्रिम वेतन संपादित करें",
+    "edit": "संपादित करें",
+    "reason": "कारण",
+    "expected_amount": "अपेक्षित राशि"
+  },
+  "award_detail_screen": {
+    "award_detail": "पुरस्कार विवरण",
+    "awarded_by": "पुरस्कृत किया गया",
+    "gift_detail": "उपहार विवरण"
+  },
+  "award_screen": {
+    "award": "पुरस्कार",
+    "total_awards": "कुल पुरस्कार",
+    "recent_achievement": "हाल की उपलब्धि",
+    "rewcode": "REWCODE",
+    "all_achievement": "सभी उपलब्धियाँ",
+    "awarded_by": "पुरस्कृत किया गया"
+  },
+  "create_loan_screen": {
+    "request_loan": "ऋण का अनुरोध करें",
+    "submit": "प्रस्तुत करें",
+    "expected_loan_amount": "अपेक्षित ऋण राशि",
+    "expected_installment_period": "अपेक्षित इंस्टॉलमेंट अवधि",
+    "loan_detail": "ऋण विवरण"
+  },
+  "edit_loan_screen": {
+    "edit_requested_loan": "अनुरोधित ऋण संपादित करें",
+    "submit": "प्रस्तुत करें",
+    "expected_loan_amount": "अपेक्षित ऋण राशि",
+    "expected_installment_period": "अपेक्षित इंस्टॉलमेंट अवधि",
+    "loan_detail": "ऋण विवरण"
+  },
+  "loan_detail_screen": {
+    "edit_requested_loan": "अनुरोधित ऋण संपादित करें",
+    "total": "कुल",
+    "remarks": "टिप्पणियाँ",
+    "verified_by": "सत्यापित किया गया",
+    "is_settled": "निपटाया गया है",
+    "requested_amount": "अनुरोधित राशि",
+    "granted_amount": "मंजूर की गई राशि",
+    "installment_period": "इंस्टॉलमेंट अवधि",
+    "loan_detail": "ब्याज दर"
+  },
+  "loan_list_screen": {
+    "loan": "ऋण"
+  },
+  "change_password_screen": {
+    "old_password": "पुराना पासवर्ड",
+    "new_password": "नया पासवर्ड",
+    "confirm_password": "पासवर्ड की पुष्टि करें"
+  },
+  "chat_screen": {
+    "send_message": "संदेश भेजें"
+  },
+  "group_chat_screen": {
+    "send_message": "संदेश भेजें"
+  },
+  "company_rules_screen": {
+    "company_rules": "कंपनी के नियम"
+  },
+  "edit_profile_screen": {
+    "edit_profile": "प्रोफ़ाइल संपादित करें",
+    "update": "अपडेट करें",
+    "change": "बदलें",
+    "fullname": "पूरा नाम",
+    "email": "ईमेल",
+    "address": "पता",
+    "phone_number": "फ़ोन नंबर",
+    "dob": "जन्मतिथि",
+    "gender": "लिंग",
+    "male": "पुरुष",
+    "female": "महिला",
+    "other": "अन्य"
+  },
+  "employee_detail_screen": {
+    "profile": "प्रोफ़ाइल",
+    "basic_details": "मौलिक विवरण",
+    "change": "बदलें",
+    "fullname": "पूरा नाम",
+    "username": "उपयोगकर्ता नाम",
+    "address": "पता",
+    "phone_number": "फ़ोन नंबर",
+    "dob": "जन्मतिथि",
+    "gender": "लिंग",
+    "company_details": "कंपनी के विवरण",
+    "job_position": "नौकरी का पद",
+    "branch": "शाखा",
+    "department": "विभाग",
+    "employment_type": "रोजगार का प्रकार",
+    "joined_date": "शामिल होने की तिथि",
+    "achievements": "उपलब्धियाँ"
+  },
+  "holiday_screen": {
+    "holidays": "छुट्टियाँ",
+    "upcoming": "आगामी",
+    "past": "बीते"
+  },
+  "leave_calendar_screen": {
+    "leave_calendar": "कार्यालय कैलेंडर",
+    "leave_list": "अवकाश सूची"
+  },
+  "meeting_detail_screen": {
+    "meeting_detail": "मीटिंग का विवरण",
+    "date": "तारीख",
+    "participants": "सहभागियों"
+  },
+  "meeting_list_screen": {
+    "meeting_detail": "मीटिंग",
+    "venue": "स्थान",
+    "participants": "अधिक"
+  },
+  "notice_screen": {
+    "notices": "सूचनाएँ"
+  },
+  "notification_screen": {
+    "notifications": "सूचनाएँ"
+  },
+  "payslipdetail_screen": {
+    "emp_id": "कर्मचारी आईडी",
+    "earnings": "कमाई",
+    "deductions": "कटौती",
+    "actual_salary": "वास्तविक वेतन",
+    "advance_salary": "अग्रिम वेतन",
+    "absent_deduction": "अनुपस्थिति कटौती",
+    "tada": "TADA",
+    "overtime": "अधिककारी समय",
+    "undertime": "कम समय",
+    "net_salary": "नेट वेतन",
+    "joining_date": "शामिल होने की तारीख"
+  },
+  "payslip_screen": {
+    "payslip": "वेतन पर्ची",
+    "request_payslip": "वेतन पर्ची का अनुरोध करें",
+    "result": "परिणाम"
+  },
+  "profile_screen": {
+    "profile": "प्रोफ़ाइल",
+    "basic_details": "मुख्य विवरण",
+    "change": "बदलें",
+    "fullname": "पूरा नाम",
+    "username": "उपयोगकर्ता नाम",
+    "address": "पता",
+    "phone_number": "फ़ोन नंबर",
+    "dob": "जन्मतिथि",
+    "gender": "लिंग",
+    "company_details": "कंपनी का विवरण",
+    "job_position": "नौकरी की पद",
+    "branch": "शाखा",
+    "department": "विभाग",
+    "employment_type": "रोजगार के प्रकार",
+    "joined_date": "शामिल होने की तारीख",
+    "bank_name": "बैंक का नाम",
+    "bank_details": "बैंक",
+    "account_number": "खाता संख्या",
+    "account_type": "खाता प्रकार"
+  },
+  "support_detail_screen": {
+    "payslip": "समर्थन विवरण",
+    "description": "विवरण",
+    "assigned_to": "निरुपित किया गया",
+    "solved_by": "समाधान किया गया",
+    "solved_at": "समाधान की तारीख"
+  },
+  "support_list_screen": {
+    "my_tickets": "मेरे टिकट",
+    "all": "सभी",
+    "pending": "लंबित",
+    "in_progress": "कार्यान्वयन में",
+    "solved": "समाधानित",
+    "issue_to": "जारी करें"
+  },
+  "support_screen": {
+    "support": "समर्थन",
+    "help_desk": "सहायता डेस्क",
+    "contact_us": "किसी भी समस्या या शिकायत के लिए हमसे संपर्क करें।",
+    "select_department_type": "विभाग का प्रकार चुनें",
+    "title": "शीर्षक",
+    "description": "विवरण",
+    "submit": "प्रस्तुत करें"
+  },
+  "team_sheet_screen": {
+    "team_sheet": "टीम की शीट"
+  },
+  "create_tada_screen": {
+    "create_tada": "टाडा बनाएं",
+    "submit": "सबमिट करें",
+    "title": "शीर्षक",
+    "total_expenses": "कुल खर्च",
+    "add_attachment": "अनुलग्नक जोड़ें",
+    "description": "विवरण"
+  },
+  "edit_tada_screen": {
+    "edit_tada": "टाडा संपादित करें",
+    "submit": "सबमिट करें",
+    "title": "शीर्षक",
+    "total_expenses": "कुल खर्च",
+    "attachment": "अनुलग्नक",
+    "add_attachment": "अनुलग्नक जोड़ें",
+    "description": "विवरण"
+  },
+  "tada_detail_screen": {
+    "tada_detail": "टाडा विवरण",
+    "total": "कुल",
+    "rs": "Rs",
+    "title": "शीर्षक",
+    "attachment": "अनुलग्नक",
+    "show_media": "मीडिया दिखाएं",
+    "verified_by": "सत्यापित करने वाला",
+    "description": "विवरण"
+  },
+  "tada_list_screen": {
+    "tada": "टाडा"
+  },
+  "common": {
+    "cancel_leave": "अवकाश रद्द करें",
+    "confirm": "पुष्टि करें",
+    "cancel_leave_alert": "क्या आप वाकई अवकाश रद्द करना चाहते हैं?",
+    "log_out_alert": "क्या आप वाकई ऐप से लोग आउट करना चाहते हैं?",
+    "scan_nfc": "NFC टैग स्कैन कर रहा है",
+    "log_out": "लोग आउट",
+    "close": "बंद करें",
+    "go_back": "वापस जाएं",
+    "language": "भाषा",
+    "select_language": "भाषा चुनें",
+    "total": "कुल",
+    "leave": "अवकाश",
+    "holiday": "छुट्टी",
+    "birthday": "जन्मदिन",
+    "office_events": "कार्यालय कार्यक्रम",
+    "events": "कार्यक्रम",
+    "location": "स्थान: ",
+    "event_date": "तारीख: ",
+    "event_time": "समय: ",
+    "event_description": "विवरण",
+    "assets": "संपत्ति",
+    "host": "मेज़बान"
+  },
+  "comment_list_screen": {
+    "comments": "टिप्पणियाँ",
+    "load_more_comments": "और टिप्पणियाँ लोड करें",
+    "write_your_comment": "अपनी टिप्पणी लिखें",
+    "team": "टीम",
+    "delete": "हटाएं",
+    "reply": "जवाब दें",
+    "cancel_reply": "जवाब रद्द करें"
+  },
+  "project_detail_screen": {
+    "attachments": "अनुलग्नक",
+    "image": "छवि",
+    "files": "फ़ाइलें",
+    "show_media": "मीडिया दिखाएं  ->",
+    "file_images": "फ़ाइलें/छवियाँ",
+    "description": "विवरण",
+    "show_more": "और दिखाएं",
+    "show_less": "कम दिखाएं",
+    "due_date": "नियत तारीख",
+    "tasks": "कार्य",
+    "team_leads": "टीम नेता(ए)",
+    "team_members": "टीम सदस्य(ए)",
+    "view_all": "सभी देखें  ->"
+  },
+  "project_list_screen": {
+    "projects": "परियोजनाएँ",
+    "all": "सभी",
+    "in_progress": "कार्यान्वित",
+    "completed": "पूर्ण",
+    "on_hold": "ठहराव",
+    "cancelled": "रद्द",
+    "not_started": "शुरू नहीं हुई"
+  },
+  "task_detail_screen": {
+    "attachments": "अनुलग्नक",
+    "image": "छवि",
+    "files": "फ़ाइलें",
+    "show_media": "मीडिया दिखाएं  ->",
+    "file_images": "फ़ाइलें/छवियाँ",
+    "description": "विवरण",
+    "show_more": "और दिखाएं",
+    "show_less": "कम दिखाएं",
+    "due_date": "नियत तारीख",
+    "tasks": "कार्य",
+    "team_leads": "टीम नेता(ए)",
+    "teams": "टीमें",
+    "team_members": "टीम सदस्य(ए)",
+    "view_all": "सभी देखें  ->",
+    "checklists": "चेकलिस्ट",
+    "no_checklist_found": "कोई चेकलिस्ट नहीं मिली",
+    "comments": "टिप्पणियाँ",
+    "mark_as_finish": "समाप्त के रूप में चिह्नित करें",
+    "checklist_complete": "क्या आप इस कार्य को पूरा करने के रूप में चिह्नित करना चाहते हैं?",
+    "confirm": "पुष्टि करें",
+    "go_back": "वापस जाएं"
+  },
+  "task_list_screen": {
+    "tasks": "कार्य",
+    "all": "सभी",
+    "in_progress": "कार्यान्वित",
+    "completed": "पूर्ण",
+    "on_hold": "ठहराव",
+    "cancelled": "रद्द",
+    "not_started": "शुरू नहीं हुई"
+  },
+  "project_screen": {
+    "project_management": "परियोजना प्रबंधन",
+    "progress_current_task": "वर्तमान कार्य की प्रगति",
+    "task_completed": "कार्य पूरा हुआ",
+    "recent_projects": "हाल के परियोजनाएँ",
+    "view_all": "सभी देखें  ->",
+    "recent_tasks": "हाल के कार्य"
+  },
+  "loader": {
+    "loading": "लोड हो रहा है",
+    "requesting": "अनुरोध कर रहा है",
+    "canceling": "रद्द किया जा रहा है, कृपया प्रतीक्षा करें..",
+    "signing_in": "साइन इन कर रहा है.."
+  }
+}

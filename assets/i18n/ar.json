@@ -1,0 +1,457 @@
+{
+  "dashboard_screen": {
+    "home": "الصفحة الرئيسية",
+    "leave": "الإجازة",
+    "attendance": "الحضور",
+    "more": "المزيد"
+  },
+  "welcome_screen": {
+    "verify_button": "تحقق من الشركة",
+    "skip": "تخطي"
+  },
+  "login_screen": {
+    "login": "تسجيل الدخول",
+    "username": "اسم المستخدم",
+    "password": "كلمة المرور",
+    "forget_password": "نسيت كلمة المرور",
+    "go_back": "<- رجوع"
+  },
+  "home_screen": {
+    "hello_there": "مرحبًا",
+    "check_in": "تسجيل الدخول",
+    "check_out": "تسجيل الخروج",
+    "present": "حاضر",
+    "holidays": "العطلات",
+    "leave": "الإجازة",
+    "request": "طلب",
+    "projects": "المشاريع",
+    "awards": "الجوائز",
+    "training": "التدريب",
+    "overview": "نظرة عامة",
+    "upcoming_holiday": "العطلة القادمة",
+    "recent_award": "الجائزة الأخيرة",
+    "task": "مهمة",
+    "show_all": "عرض الكل",
+    "view_all": "عرض الكل",
+    "weekly": "أسبوعي",
+    "reports": "التقارير",
+    "my_team": "فريقي",
+    "sun": "الأحد",
+    "mon": "الاثنين",
+    "tue": "الثلاثاء",
+    "wed": "الأربعاء",
+    "thu": "الخميس",
+    "fri": "الجمعة",
+    "sat": "السبت",
+    "note": "ملاحظة (اختياري)"
+  },
+  "leave_screen": {
+    "leave": "الإجازة",
+    "issue_leave": "إصدار إجازة",
+    "time_leave": "إجازة زمنية",
+    "recent_leave_activity": "النشاط الأخير للإجازة",
+    "this_month": "هذا الشهر",
+    "this_year": "هذا العام",
+    "filter": "تصفية",
+    "apply_leave": "تقديم طلب إجازة",
+    "select_start_date": "اختر تاريخ البدء",
+    "select_end_date": "اختر تاريخ الانتهاء",
+    "reason": "السبب",
+    "request_leave": "طلب إجازة",
+    "select_date": "اختر التاريخ",
+    "select_start_time": "اختر وقت البدء",
+    "select_end_time": "اختر وقت الانتهاء",
+    "select_leave_type": "اختر نوع الإجازة"
+  },
+  "attendance_screen": {
+    "check_in": "تسجيل الدخول",
+    "check_out": "تسجيل الخروج",
+    "attendance_history": "سجل الحضور",
+    "date": "التاريخ",
+    "day": "اليوم",
+    "start_time": "وقت البدء",
+    "end_time": "وقت الانتهاء",
+    "present_days": "أيام الحضور",
+    "worked_hours": "ساعات العمل",
+    "undertime": "نقص الوقت",
+    "overtime": "الوقت الإضافي",
+    "attendance_summary": "ملخص الحضور"
+  },
+  "more_screen": {
+    "attendance_default_method": "تسجيل الدخول",
+    "default": "افتراضي",
+    "nfc": "NFC",
+    "add_nfc": "إضافة NFC",
+    "qr_code": "رمز QR",
+    "account": "الحساب",
+    "profile": "الملف الشخصي",
+    "team_sheet": "جدول الفريق",
+    "project_management": "إدارة المشاريع",
+    "change_password": "تغيير كلمة المرور",
+    "awards": "الجوائز",
+    "training": "التدريبات",
+    "holiday": "العطلات",
+    "notices": "الإشعارات",
+    "meeting": "الاجتماع",
+    "leave_calendar": "تقويم المكتب",
+    "tada": "TADA",
+    "payslip": "قسيمة الراتب",
+    "advance_salary": "راتب مقدم",
+    "loans": "القروض",
+    "support": "الدعم",
+    "company_rules": "قواعد الشركة",
+    "about_us": "معلومات عنا",
+    "terms_and_conditions": "الشروط والأحكام",
+    "privacy_policy": "سياسة الخصوصية",
+    "dark_mode": "الوضع الداكن",
+    "animation": "الرسوم المتحركة",
+    "finance": "المالية",
+    "additional": "إضافي",
+    "office_desk": "مكتب المكتب",
+    "others": "أخرى",
+    "log_out": "تسجيل الخروج"
+  },
+  "general_screen": {
+    "notification_detail": "تفاصيل الإشعار",
+    "published_date": "تاريخ النشر"
+  },
+  "advance_detail_screen": {
+    "advance_detail": "تفاصيل السلفة",
+    "total": "الإجمالي",
+    "rs": "روبية",
+    "requested_amount": "المبلغ المطلوب",
+    "released_amount": "المبلغ المحرر",
+    "is_settled": "هل تم التسوية",
+    "no": "لا",
+    "yes": "نعم",
+    "reason": "السبب",
+    "verified_by": "تم التحقق من قبل",
+    "remarks": "ملاحظات"
+  },
+  "advance_salary_screen": {
+    "advance_salary": "راتب مقدم"
+  },
+  "create_salary_screen": {
+    "create_advance_salary": "إنشاء راتب مقدم",
+    "submit": "إرسال",
+    "reason": "السبب",
+    "expected_amount": "المبلغ المتوقع"
+  },
+  "edit_salary_screen": {
+    "edit_advance_salary": "تعديل راتب مقدم",
+    "edit": "تعديل",
+    "reason": "السبب",
+    "expected_amount": "المبلغ المتوقع"
+  },
+  "award_detail_screen": {
+    "award_detail": "تفاصيل الجائزة",
+    "awarded_by": "ممنوحة من قبل",
+    "gift_detail": "تفاصيل الهدية"
+  },
+  "award_screen": {
+    "award": "الجائزة",
+    "total_awards": "إجمالي الجوائز",
+    "recent_achievement": "الإنجاز الأخير",
+    "rewcode": "REWCODE",
+    "all_achievement": "كل الإنجازات",
+    "awarded_by": "ممنوحة من قبل"
+  },
+  "create_loan_screen": {
+    "request_loan": "طلب قرض",
+    "submit": "إرسال",
+    "expected_loan_amount": "المبلغ المتوقع للقرض",
+    "expected_installment_period": "الفترة المتوقعة للتقسيط",
+    "loan_detail": "تفاصيل القرض"
+  },
+  "edit_loan_screen": {
+    "edit_requested_loan": "تعديل القرض المطلوب",
+    "submit": "إرسال",
+    "expected_loan_amount": "المبلغ المتوقع للقرض",
+    "expected_installment_period": "الفترة المتوقعة للتقسيط",
+    "loan_detail": "تفاصيل القرض"
+  },
+  "loan_detail_screen": {
+    "edit_requested_loan": "تعديل القرض المطلوب",
+    "total": "الإجمالي",
+    "remarks": "الملاحظات",
+    "verified_by": "تم التحقق من قبل",
+    "is_settled": "هل تم التسوية",
+    "requested_amount": "المبلغ المطلوب",
+    "granted_amount": "المبلغ الممنوح",
+    "installment_period": "فترة التقسيط",
+    "loan_detail": "معدل الفائدة"
+  },
+  "loan_list_screen": {
+    "loan": "القرض"
+  },
+  "change_password_screen": {
+    "old_password": "كلمة المرور القديمة",
+    "new_password": "كلمة المرور الجديدة",
+    "confirm_password": "تأكيد كلمة المرور"
+  },
+  "chat_screen": {
+    "send_message": "إرسال رسالة"
+  },
+  "group_chat_screen": {
+    "send_message": "إرسال رسالة"
+  },
+  "company_rules_screen": {
+    "company_rules": "قواعد الشركة"
+  },
+  "edit_profile_screen": {
+    "edit_profile": "تعديل الملف الشخصي",
+    "update": "تحديث",
+    "change": "تغيير",
+    "fullname": "الاسم الكامل",
+    "email": "البريد الإلكتروني",
+    "address": "العنوان",
+    "phone_number": "رقم الهاتف",
+    "dob": "تاريخ الميلاد",
+    "gender": "الجنس",
+    "male": "ذكر",
+    "female": "أنثى",
+    "other": "آخر"
+  },
+  "employee_detail_screen": {
+    "profile": "الملف الشخصي",
+    "basic_details": "التفاصيل الأساسية",
+    "change": "تغيير",
+    "fullname": "الاسم الكامل",
+    "username": "اسم المستخدم",
+    "address": "العنوان",
+    "phone_number": "رقم الهاتف",
+    "dob": "تاريخ الميلاد",
+    "gender": "الجنس",
+    "company_details": "تفاصيل الشركة",
+    "job_position": "المسمى الوظيفي",
+    "branch": "الفرع",
+    "department": "القسم",
+    "employment_type": "نوع التوظيف",
+    "joined_date": "تاريخ الانضمام",
+    "achievements": "الإنجازات"
+  },
+  "holiday_screen": {
+    "holidays": "العطلات",
+    "ppcoming": "القادمة",
+    "past": "السابقة"
+  },
+  "leave_calendar_screen": {
+    "leave_calendar": "تقويم المكتب",
+    "leave_list": "قائمة الإجازات"
+  },
+  "meeting_detail_screen": {
+    "meeting_detail": "تفاصيل الاجتماع",
+    "date": "التاريخ",
+    "participants": "المشاركون"
+  },
+  "meeting_list_screen": {
+    "meeting_detail": "الاجتماعات",
+    "venue": "المكان",
+    "participants": "المزيد"
+  },
+  "notice_screen": {
+    "notices": "الإشعارات"
+  },
+  "notification_screen": {
+    "notifications": "الإشعارات"
+  },
+  "payslipdetail_screen": {
+    "emp_id": "رقم الموظف",
+    "earnings": "الأرباح",
+    "deductions": "الخصومات",
+    "actual_salary": "الراتب الفعلي",
+    "advance_salary": "راتب مسبق",
+    "absent_deduction": "خصم الغياب",
+    "tada": "TADA",
+    "overtime": "الوقت الإضافي",
+    "undertime": "الوقت الناقص",
+    "net_salary": "الراتب الصافي",
+    "joining_date": "تاريخ الانضمام"
+  },
+  "payslip_screen": {
+    "payslip": "قسيمة الراتب",
+    "request_payslip": "طلب قسيمة الراتب",
+    "result": "النتيجة"
+  },
+  "profile_screen": {
+    "profile": "الملف الشخصي",
+    "basic_details": "التفاصيل الأساسية",
+    "change": "تغيير",
+    "fullname": "الاسم الكامل",
+    "username": "اسم المستخدم",
+    "address": "العنوان",
+    "phone_number": "رقم الهاتف",
+    "dob": "تاريخ الميلاد",
+    "gender": "الجنس",
+    "company_details": "تفاصيل الشركة",
+    "job_position": "المسمى الوظيفي",
+    "branch": "الفرع",
+    "department": "القسم",
+    "employment_type": "نوع التوظيف",
+    "joined_date": "تاريخ الانضمام",
+    "bank_name": "اسم البنك",
+    "bank_details": "اسم",
+    "account_number": "رقم الحساب",
+    "account_type": "نوع الحساب"
+  },
+  "support_detail_screen": {
+    "payslip": "تفاصيل الدعم",
+    "description": "الوصف",
+    "assigned_to": "مخصص ل",
+    "solved_by": "تم الحل بواسطة",
+    "solved_at": "تم الحل في"
+  },
+  "support_list_screen": {
+    "my_tickets": "تذاكري",
+    "all": "الكل",
+    "pending": "معلق",
+    "in_progress": "قيد التنفيذ",
+    "solved": "تم الحل",
+    "issue_to": "تخصيص إلى"
+  },
+  "support_screen": {
+    "support": "الدعم",
+    "help_desk": "مكتب المساعدة",
+    "contact_us": "اتصل بنا إذا كان لديك أي مشكلة أو شكوى تحتاج إلى معالجة.",
+    "select_department_type": "حدد نوع القسم",
+    "title": "العنوان",
+    "description": "الوصف",
+    "submit": "إرسال"
+  },
+  "team_sheet_screen": {
+    "team_sheet": "جدول الفريق"
+  },
+  "create_tada_screen": {
+    "create_tada": "إنشاء تادا",
+    "submit": "إرسال",
+    "title": "العنوان",
+    "total_expenses": "إجمالي المصاريف",
+    "add_attachment": "إضافة مرفق",
+    "description": "الوصف"
+  },
+  "edit_tada_screen": {
+    "edit_tada": "تحرير تادا",
+    "submit": "إرسال",
+    "title": "العنوان",
+    "total_expenses": "إجمالي المصاريف",
+    "attachment": "المرفق",
+    "add_attachment": "إضافة مرفق",
+    "description": "الوصف"
+  },
+  "tada_detail_screen": {
+    "tada_detail": "تفاصيل تادا",
+    "total": "الإجمالي",
+    "rs": "Rs",
+    "title": "العنوان",
+    "attachment": "المرفق",
+    "show_media": "عرض الوسائط",
+    "verified_by": "تم التحقق من قبل",
+    "description": "الوصف"
+  },
+  "tada_list_screen": {
+    "tada": "تادا"
+  },
+  "common": {
+    "cancel_leave": "إلغاء الإجازة",
+    "confirm": "تأكيد",
+    "cancel_leave_alert": "هل أنت متأكد أنك تريد إلغاء الإجازة؟",
+    "log_out_alert": "هل أنت متأكد أنك تريد تسجيل الخروج من التطبيق؟",
+    "scan_nfc": "المسح عن أوسمة NFC",
+    "log_out": "تسجيل الخروج",
+    "close": "إغلاق",
+    "go_back": "العودة",
+    "language": "اللغة",
+    "select_language": "اختر اللغة",
+    "total": "الإجمالي",
+    "leave": "الإجازة",
+    "holiday": "عطلة",
+    "birthday": "عيد ميلاد",
+    "office_events": "فعاليات المكتب",
+    "events": "الفعاليات",
+    "location": "الموقع: ",
+    "event_date": "التاريخ: ",
+    "event_time": "الوقت: ",
+    "event_description": "الوصف",
+    "assets": "الأصول",
+    "host": "المضيف"
+  },
+  "comment_list_screen": {
+    "comments": "التعليقات",
+    "load_more_comments": "تحميل المزيد من التعليقات",
+    "write_your_comment": "اكتب تعليقك",
+    "team": "الفريق",
+    "delete": "حذف",
+    "reply": "رد",
+    "cancel_reply": "إلغاء الرد"
+  },
+  "project_detail_screen": {
+    "attachments": "المرفقات",
+    "image": "صورة",
+    "files": "ملفات",
+    "show_media": "عرض الوسائط ->",
+    "file_images": "الملفات/الصور",
+    "description": "الوصف",
+    "show_more": "عرض المزيد",
+    "show_less": "عرض أقل",
+    "due_date": "تاريخ الاستحقاق",
+    "tasks": "المهام",
+    "team_leads": "قادة الفريق",
+    "team_members": "أعضاء الفريق",
+    "view_all": "عرض الكل ->"
+  },
+  "project_list_screen": {
+    "projects": "المشاريع",
+    "all": "الكل",
+    "in_progress": "قيد التنفيذ",
+    "completed": "مكتمل",
+    "on_hold": "في الانتظار",
+    "cancelled": "ملغى",
+    "not_started": "لم يبدأ"
+  },
+  "task_detail_screen": {
+    "attachments": "المرفقات",
+    "image": "صورة",
+    "files": "ملفات",
+    "show_media": "عرض الوسائط ->",
+    "file_images": "الملفات/الصور",
+    "description": "الوصف",
+    "show_more": "عرض المزيد",
+    "show_less": "عرض أقل",
+    "due_date": "تاريخ الاستحقاق",
+    "tasks": "المهام",
+    "team_leads": "قادة الفريق",
+    "teams": "الفرق",
+    "team_members": "أعضاء الفريق",
+    "view_all": "عرض الكل ->",
+    "checklists": "قوائم التحقق",
+    "no_checklist_found": "لم يتم العثور على قائمة تحقق",
+    "comments": "التعليقات",
+    "mark_as_finish": "وضع علامة كمكتمل",
+    "checklist_complete": "هل أنت متأكد أنك تريد وضع علامة على هذه المهمة كمكتملة؟",
+    "confirm": "تأكيد",
+    "go_back": "العودة"
+  },
+  "task_list_screen": {
+    "tasks": "المهام",
+    "all": "الكل",
+    "in_progress": "قيد التنفيذ",
+    "completed": "مكتمل",
+    "on_hold": "في الانتظار",
+    "cancelled": "ملغى",
+    "not_started": "لم يبدأ"
+  },
+  "project_screen": {
+    "project_management": "إدارة المشروع",
+    "progress_current_task": "تقدم المهمة الحالية",
+    "task_completed": "تم إكمال المهمة",
+    "recent_projects": "المشاريع الأخيرة",
+    "view_all": "عرض الكل  ->",
+    "recent_tasks": "المهام الأخيرة"
+  },
+  "loader": {
+    "loading": "جار التحميل",
+    "requesting": "جار الطلب",
+    "canceling": "جاري الإلغاء، يرجى الانتظار..",
+    "signing_in": "جار تسجيل الدخول.."
+  }
+}

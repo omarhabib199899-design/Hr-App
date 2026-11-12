@@ -1,0 +1,457 @@
+{
+  "dashboard_screen": {
+    "home": "Главная",
+    "leave": "Отпуск",
+    "attendance": "Посещаемость",
+    "more": "Ещё"
+  },
+  "welcome_screen": {
+    "verify_button": "Проверить компанию",
+    "skip": "Пропустить"
+  },
+  "login_screen": {
+    "login": "Войти",
+    "username": "Имя пользователя",
+    "password": "Пароль",
+    "forget_password": "Забыли пароль",
+    "go_back": "<- Назад"
+  },
+  "home_screen": {
+    "hello_there": "Здравствуйте",
+    "check_in": "Регистрация",
+    "check_out": "Выход",
+    "present": "Присутствует",
+    "holidays": "Праздники",
+    "leave": "Отпуск",
+    "request": "Запрос",
+    "projects": "Проекты",
+    "awards": "Награды",
+    "training": "Обучение",
+    "overview": "Обзор",
+    "upcoming_holiday": "Предстоящий праздник",
+    "recent_award": "Недавняя награда",
+    "task": "Задача",
+    "show_all": "Показать все",
+    "view_all": "Просмотреть все",
+    "weekly": "Еженедельно",
+    "reports": "Отчеты",
+    "my_team": "Моя команда",
+    "sun": "Вс",
+    "mon": "Пн",
+    "tue": "Вт",
+    "wed": "Ср",
+    "thu": "Чт",
+    "fri": "Пт",
+    "sat": "Сб",
+    "note": "Заметка (по желанию)"
+  },
+  "leave_screen": {
+    "leave": "Отпуск",
+    "issue_leave": "Выдать отпуск",
+    "time_leave": "Временный отпуск",
+    "recent_leave_activity": "Недавняя активность по отпускам",
+    "this_month": "В этом месяце",
+    "this_year": "В этом году",
+    "filter": "Фильтр",
+    "apply_leave": "Подать заявку на отпуск",
+    "select_start_date": "Выберите дату начала",
+    "select_end_date": "Выберите дату окончания",
+    "reason": "Причина",
+    "request_leave": "Запросить отпуск",
+    "select_date": "Выберите дату",
+    "select_start_time": "Выберите время начала",
+    "select_end_time": "Выберите время окончания",
+    "select_leave_type": "Выберите тип отпуска"
+  },
+  "attendance_screen": {
+    "check_in": "Регистрация",
+    "check_out": "Выход",
+    "attendance_history": "История посещаемости",
+    "date": "Дата",
+    "day": "День",
+    "start_time": "Время начала",
+    "end_time": "Время окончания",
+    "present_days": "Дни присутствия",
+    "worked_hours": "Отработанные часы",
+    "undertime": "Недостаточное время",
+    "overtime": "Сверхурочные",
+    "attendance_summary": "Сводка посещаемости"
+  },
+  "more_screen": {
+    "attendance_default_method": "Регистрация",
+    "default": "По умолчанию",
+    "nfc": "NFC",
+    "add_nfc": "Добавить NFC",
+    "qr_code": "QR код",
+    "account": "Аккаунт",
+    "profile": "Профиль",
+    "team_sheet": "Список команды",
+    "project_management": "Управление проектами",
+    "change_password": "Сменить пароль",
+    "awards": "Награды",
+    "training": "Обучения",
+    "holiday": "Праздники",
+    "notices": "Уведомления",
+    "meeting": "Встреча",
+    "leave_calendar": "Календарь офиса",
+    "tada": "TADA",
+    "payslip": "Расчетный лист",
+    "advance_salary": "Аванс",
+    "loans": "Займы",
+    "support": "Поддержка",
+    "company_rules": "Правила компании",
+    "about_us": "О нас",
+    "terms_and_conditions": "Условия и положения",
+    "privacy_policy": "Политика конфиденциальности",
+    "dark_mode": "Темный режим",
+    "animation": "Анимация",
+    "finance": "Финансы",
+    "additional": "Дополнительно",
+    "office_desk": "Офисный стол",
+    "others": "Другие",
+    "log_out": "Выйти"
+  },
+  "general_screen": {
+    "notification_detail": "Детали уведомления",
+    "published_date": "Дата публикации"
+  },
+  "advance_detail_screen": {
+    "advance_detail": "Детали аванса",
+    "total": "Итого",
+    "rs": "Руб",
+    "requested_amount": "Запрашиваемая сумма",
+    "released_amount": "Выданная сумма",
+    "is_settled": "Урегулировано",
+    "no": "нет",
+    "yes": "да",
+    "reason": "причина",
+    "verified_by": "Проверено",
+    "remarks": "Замечания"
+  },
+  "advance_salary_screen": {
+    "advance_salary": "Аванс"
+  },
+  "create_salary_screen": {
+    "create_advance_salary": "Создать аванс",
+    "submit": "Отправить",
+    "reason": "Причина",
+    "expected_amount": "Ожидаемая сумма"
+  },
+  "edit_salary_screen": {
+    "edit_advance_salary": "Редактировать аванс",
+    "edit": "Редактировать",
+    "reason": "Причина",
+    "expected_amount": "Ожидаемая сумма"
+  },
+  "award_detail_screen": {
+    "award_detail": "Детали награды",
+    "awarded_by": "Награждено",
+    "gift_detail": "Детали подарка"
+  },
+  "award_screen": {
+    "award": "Награда",
+    "total_awards": "Всего наград",
+    "recent_achievement": "Последнее достижение",
+    "rewcode": "REWCODE",
+    "all_achievement": "Все достижения",
+    "awarded_by": "Награждено"
+  },
+  "create_loan_screen": {
+    "request_loan": "Запросить заем",
+    "submit": "Отправить",
+    "expected_loan_amount": "Ожидаемая сумма займа",
+    "expected_installment_period": "Ожидаемый период погашения",
+    "loan_detail": "Детали займа"
+  },
+  "edit_loan_screen": {
+    "edit_requested_loan": "Редактировать запрос займа",
+    "submit": "Отправить",
+    "expected_loan_amount": "Ожидаемая сумма займа",
+    "expected_installment_period": "Ожидаемый период погашения",
+    "loan_detail": "Детали займа"
+  },
+  "loan_detail_screen": {
+    "edit_requested_loan": "Редактировать запрос займа",
+    "total": "Итого",
+    "remarks": "Замечания",
+    "verified_by": "Проверено",
+    "is_settled": "Урегулировано",
+    "requested_amount": "Запрашиваемая сумма",
+    "granted_amount": "Выданная сумма",
+    "installment_period": "Период погашения",
+    "loan_detail": "Процентная ставка"
+  },
+  "loan_list_screen": {
+    "loan": "Заем"
+  },
+  "change_password_screen": {
+    "old_password": "Старый пароль",
+    "new_password": "Новый пароль",
+    "confirm_password": "Подтвердить пароль"
+  },
+  "chat_screen": {
+    "send_message": "Отправить сообщение"
+  },
+  "group_chat_screen": {
+    "send_message": "Отправить сообщение"
+  },
+  "company_rules_screen": {
+    "company_rules": "Правила компании"
+  },
+  "edit_profile_screen": {
+    "edit_profile": "Редактировать профиль",
+    "update": "Обновить",
+    "change": "Изменить",
+    "fullname": "Полное имя",
+    "email": "Электронная почта",
+    "address": "Адрес",
+    "phone_number": "Номер телефона",
+    "dob": "Дата рождения",
+    "gender": "Пол",
+    "male": "Мужской",
+    "female": "Женский",
+    "other": "Другой"
+  },
+  "employee_detail_screen": {
+    "profile": "Профиль",
+    "basic_details": "Основные детали",
+    "change": "Изменить",
+    "fullname": "Полное имя",
+    "username": "Имя пользователя",
+    "address": "Адрес",
+    "phone_number": "Номер телефона",
+    "dob": "Дата рождения",
+    "gender": "Пол",
+    "company_details": "Детали компании",
+    "job_position": "Должность",
+    "branch": "Филиал",
+    "department": "Отдел",
+    "employment_type": "Тип занятости",
+    "joined_date": "Дата присоединения",
+    "achievements": "Достижения"
+  },
+  "holiday_screen": {
+    "holidays": "Праздники",
+    "upcoming": "Предстоящие",
+    "past": "Прошлые"
+  },
+  "leave_calendar_screen": {
+    "leave_calendar": "Календарь офиса",
+    "leave_list": "Список отпусков"
+  },
+  "meeting_detail_screen": {
+    "meeting_detail": "Детали встречи",
+    "date": "Дата",
+    "participants": "Участники"
+  },
+  "meeting_list_screen": {
+    "meeting_detail": "Встречи",
+    "venue": "Место",
+    "participants": "Больше"
+  },
+  "notice_screen": {
+    "notices": "Уведомления"
+  },
+  "notification_screen": {
+    "notifications": "Уведомления"
+  },
+  "payslipdetail_screen": {
+    "emp_id": "ID сотрудника",
+    "earnings": "Заработок",
+    "deductions": "Удержания",
+    "actual_salary": "Фактическая зарплата",
+    "advance_salary": "Авансовая Зарплата",
+    "absent_deduction": "Удержание за отсутствие",
+    "tada": "TADA",
+    "overtime": "Сверхурочные",
+    "undertime": "Недоработка",
+    "net_salary": "Чистая зарплата",
+    "joining_date": "Дата присоединения"
+  },
+  "payslip_screen": {
+    "payslip": "Платежная ведомость",
+    "request_payslip": "Запросить платежную ведомость",
+    "result": "Результат"
+  },
+  "profile_screen": {
+    "profile": "Профиль",
+    "basic_details": "Основные детали",
+    "change": "Изменить",
+    "fullname": "Полное имя",
+    "username": "Имя пользователя",
+    "address": "Адрес",
+    "phone_number": "Номер телефона",
+    "dob": "Дата рождения",
+    "gender": "Пол",
+    "company_details": "Детали компании",
+    "job_position": "Должность",
+    "branch": "Филиал",
+    "department": "Отдел",
+    "employment_type": "Тип занятости",
+    "joined_date": "Дата присоединения",
+    "bank_name": "Название банка",
+    "bank_details": "Название",
+    "account_number": "Номер счета",
+    "account_type": "Тип счета"
+  },
+  "support_detail_screen": {
+    "payslip": "Детали поддержки",
+    "description": "Описание",
+    "assigned_to": "Назначено",
+    "solved_by": "Решено",
+    "solved_at": "Решено в"
+  },
+  "support_list_screen": {
+    "my_tickets": "Мои тикеты",
+    "all": "Все",
+    "pending": "В ожидании",
+    "in_progress": "В процессе",
+    "solved": "Решено",
+    "issue_to": "Назначено"
+  },
+  "support_screen": {
+    "support": "Поддержка",
+    "help_desk": "Служба поддержки",
+    "contact_us": "Свяжитесь с нами, если у вас есть проблема или жалоба.",
+    "select_department_type": "Выберите тип отдела",
+    "title": "Название",
+    "description": "Описание",
+    "submit": "Отправить"
+  },
+  "team_sheet_screen": {
+    "team_sheet": "Командный лист"
+  },
+  "create_tada_screen": {
+    "create_tada": "Создать TADA",
+    "submit": "Отправить",
+    "title": "название",
+    "total_expenses": "Общие расходы",
+    "add_attachment": "Добавить вложение",
+    "description": "Описание"
+  },
+  "edit_tada_screen": {
+    "edit_tada": "Изменить TADA",
+    "submit": "Отправить",
+    "title": "название",
+    "total_expenses": "Общие расходы",
+    "attachment": "Вложение",
+    "add_attachment": "Добавить вложение",
+    "description": "Описание"
+  },
+  "tada_detail_screen": {
+    "tada_detail": "Подробности TADA",
+    "total": "Всего",
+    "rs": "Rs",
+    "title": "название",
+    "attachment": "Вложение",
+    "show_media": "Показать медиа",
+    "verified_by": "Проверено",
+    "description": "Описание"
+  },
+  "tada_list_screen": {
+    "tada": "TADA"
+  },
+  "common": {
+    "cancel_leave": "Отменить отпуск",
+    "confirm": "Подтвердить",
+    "cancel_leave_alert": "Вы уверены, что хотите отменить отпуск?",
+    "log_out_alert": "Вы уверены, что хотите выйти из приложения?",
+    "scan_nfc": "Сканирование NFC-тегов",
+    "log_out": "Выйти",
+    "close": "Закрыть",
+    "go_back": "Назад",
+    "language": "Язык",
+    "select_language": "Выбрать язык",
+    "total": "Всего",
+    "leave": "Отпуск",
+    "holiday": "Праздник",
+    "birthday": "День рождения",
+    "office_events": "Офисные мероприятия",
+    "events": "Мероприятия",
+    "location": "Местоположение: ",
+    "event_date": "Дата: ",
+    "event_time": "Время: ",
+    "event_description": "Описание",
+    "assets": "Активы",
+    "host": "Ведущий"
+  },
+  "comment_list_screen": {
+    "comments": "Комментарии",
+    "load_more_comments": "Загрузить еще комментарии",
+    "write_your_comment": "Напишите свой комментарий",
+    "team": "Команда",
+    "delete": "Удалить",
+    "reply": "Ответить",
+    "cancel_reply": "Отменить ответ"
+  },
+  "project_detail_screen": {
+    "attachments": "Вложения",
+    "image": "Изображение",
+    "files": "Файлы",
+    "show_media": "Показать медиа  ->",
+    "file_images": "Файлы/Изображения",
+    "description": "Описание",
+    "show_more": "Показать больше",
+    "show_less": "Показать меньше",
+    "due_date": "Срок выполнения",
+    "tasks": "Задачи",
+    "team_leads": "Руководитель(и) команды",
+    "team_members": "Участник(и) команды",
+    "view_all": "Показать все  ->"
+  },
+  "project_list_screen": {
+    "projects": "Проекты",
+    "all": "Все",
+    "in_progress": "В процессе",
+    "completed": "Завершенные",
+    "on_hold": "На паузе",
+    "cancelled": "Отмененные",
+    "not_started": "Не начатые"
+  },
+  "task_detail_screen": {
+    "attachments": "Вложения",
+    "image": "Изображение",
+    "files": "Файлы",
+    "show_media": "Показать медиа  ->",
+    "file_images": "Файлы/Изображения",
+    "description": "Описание",
+    "show_more": "Показать больше",
+    "show_less": "Показать меньше",
+    "due_date": "Срок выполнения",
+    "tasks": "Задачи",
+    "team_leads": "Руководитель(и) команды",
+    "teams": "Команды",
+    "team_members": "Участник(и) команды",
+    "view_all": "Показать все  ->",
+    "checklists": "Чеклисты",
+    "no_checklist_found": "Чеклисты не найдены",
+    "comments": "Комментарии",
+    "mark_as_finish": "Отметить как завершенное",
+    "checklist_complete": "Вы уверены, что хотите отметить эту задачу как завершенную?",
+    "confirm": "Подтвердить",
+    "go_back": "Назад"
+  },
+  "task_list_screen": {
+    "tasks": "Задачи",
+    "all": "Все",
+    "in_progress": "В процессе",
+    "completed": "Завершенные",
+    "on_hold": "На паузе",
+    "cancelled": "Отмененные",
+    "not_started": "Не начатые"
+  },
+  "project_screen": {
+    "project_management": "Управление проектом",
+    "progress_current_task": "Прогресс текущей задачи",
+    "task_completed": "Задача выполнена",
+    "recent_projects": "Недавние проекты",
+    "view_all": "Посмотреть все  ->",
+    "recent_tasks": "Недавние задачи"
+  },
+  "loader": {
+    "loading": "Загрузка",
+    "requesting": "Запрос",
+    "canceling": "Отмена, пожалуйста, подождите..",
+    "signing_in": "Вход.."
+  }
+}

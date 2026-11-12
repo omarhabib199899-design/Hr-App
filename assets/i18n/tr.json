@@ -1,0 +1,467 @@
+{
+  "dashboard_screen": {
+    "home": "Anasayfa",
+    "leave": "Çıkış Yap",
+    "attendance": "Katılım",
+    "more": "Daha"
+  },
+  "welcome_screen": {
+    "verify_button": "Şirketi Doğrula",
+    "skip": "Atla"
+  },
+  "login_screen": {
+    "login": "Giriş Yap",
+    "username": "Kullanıcı Adı",
+    "password": "Şifre",
+    "forget_password": "Şifreyi Unut",
+    "go_back": "<- Geri Dön"
+  },
+  "home_screen": {
+    "hello_there": "Selamlar",
+    "check_in": "Giriş",
+    "check_out": "Çıkış",
+    "present": "Sunmak",
+    "holidays": "Tatiller",
+    "leave": "Çıkış",
+    "request": "Talep Et",
+    "projects": "Projeler",
+    "awards": "Ödüller",
+    "training": "Eğitim",
+    "overview": "Genel Bakış",
+    "upcoming_holiday": "Yaklaşan Tatil",
+    "recent_award": "Son Ödül",
+    "task": "Görev",
+    "show_all": "Tümünü Göster",
+    "view_all": "Tümünü Görüntüle",
+    "weekly": "Haftalık",
+    "reports": "Raporlar",
+    "my_team": "Benim Takımım",
+    "sun": "Paz",
+    "mon": "Pzt",
+    "tue": "Sal",
+    "wed": "Çrş",
+    "thu": "Per",
+    "fri": "Cum",
+    "sat": "Cmt",
+    "note": "Not (İsteğe Bağlı)",
+    "event": "Etkinlik"
+  },
+  "leave_screen": {
+    "leave": "İzin",
+    "issue_leave": "İzin iste",
+    "time_leave": "İzin Süresi",
+    "recent_leave_activity": "Son İzin Etkinliği",
+    "this_month": "Bu Ay",
+    "this_year": "Bu Yıl",
+    "filter": "Filtrele",
+    "apply_leave": "İzni Uygula",
+    "select_start_date": "Başlangıç Tarihi Seç",
+    "select_end_date": "Bitiş Tarihi Seç",
+    "reason": "Sebep",
+    "request_leave": "İzin Talebi",
+    "select_date": "Tarih Seç",
+    "select_end_date": "Bitiş Seç",
+    "select_start_time": "Başlangıç Zamanı Seç",
+    "select_end_time": "Bitiş Zamanı Seç",
+    "select_leave_type": "İzin Türünü Seç"
+  },
+  "attendance_screen": {
+    "check_in": "Giriş",
+    "check_out": "Çıkış",
+    "attendance_history": "Katılım Geçmişi",
+    "date": "Tarih",
+    "day": "Gün",
+    "start_time": "Başlangıç Zamanı",
+    "end_time": "Bitiş Zamanı",
+    "present_days": "Günümüz",
+    "worked_hours": "Çalışma Saatleri",
+    "working_hours": "Çalışma Saatleri",
+    "undertime": "Fazla Mesai",
+    "overtime": "Mesai",
+    "attendance_summary": "Katılım Özeti"
+  },
+  "more_screen": {
+    "attendance_default_method": "Giriş",
+    "default": "Varsayılan",
+    "nfc": "NFC",
+    "add_nfc": "NFC Ekle",
+    "qr_code": "QR Kod",
+    "account": "Hesap",
+    "profile": "Profil",
+    "team_sheet": "Takım Sayfası",
+    "project_management": "Proje Yönetimi",
+    "change_password": "Parolayı Değiştir",
+    "awards": "Ödüller",
+    "training": "Eğitimler",
+    "training_detail": "Eğitimler Detay",
+    "certificate": "sertifika",
+    "description": "Tanım",
+    "start_date": "başlangıç tarihi",
+    "end_date": "Bitiş tarihi",
+    "trainer": "eğitmen",
+    "holiday": "Tatiller",
+    "notices": "Bildirimler",
+    "meeting": "Toplantı",
+    "leave_calendar": "Ofis Takvimi",
+    "tada": "Harcama",
+    "payslip": "Maaş Bordrosu",
+    "advance_salary": "Avans Maaş",
+    "loans": "Krediler",
+    "support": "Destek",
+    "company_rules": "Şirket Kuralları",
+    "about_us": "Hakkımızda",
+    "terms_and_conditions": "Şartlar Ve Koşullar",
+    "privacy_policy": "Gizlilik Politikası",
+    "dark_mode": "Karanlık Mod",
+    "animation": "Animasyon",
+    "finance": "Finans",
+    "additional": "Ek Olarak",
+    "office_desk": "Ofis Masası",
+    "others": "Diğerleri",
+    "log_out": "Çıkış Yap"
+  },
+  "general_screen": {
+    "notification_detail": "Bildirim Detayı",
+    "published_date": "Yayınlanma Tarihi"
+  },
+  "advance_detail_screen": {
+    "advance_detail": "Gelişmiş Detay",
+    "total": "Toplam",
+    "rs": "Rs",
+    "requested_amount": "Talep Edilen Tutar",
+    "released_amount": "Serbest Bırakılan Tutar",
+    "is_settled": "Yerleşti",
+    "no": "hayır",
+    "yes": "evet",
+    "reason": "Sebep",
+    "verified_by": "Doğrulayan",
+    "remarks": "Notlar"
+  },
+  "advance_salary_screen": {
+    "advance_salary": "Avans Maaş"
+  },
+  "create_salary_screen": {
+    "create_advance_salary": "Avans Maaş Oluştur",
+    "submit": "Gönder",
+    "reason": "Sebep",
+    "expected_amount": "Beklenen Tutar"
+  },
+  "edit_salary_screen": {
+    "edit_advance_salary": "Avans Maaşını Düzenle",
+    "edit": "Düzenle",
+    "reason": "Sebep",
+    "expected_amount": "Beklenen Tutar"
+  },
+  "award_detail_screen": {
+    "award_detail": "Ödül Detayı",
+    "awarded_by": "Tarafından Ödüllendirildi",
+    "gift_detail": "Hediye Detayı"
+  },
+  "award_screen": {
+    "award": "Ödül",
+    "total_awards": "Toplam Ödüller",
+    "recent_achievement": "Son Başarılar",
+    "rewcode": "REWCODE",
+    "all_achievement": "Tüm Başarılar",
+    "awarded_by": "Tarafından Ödüllendirildi."
+  },
+  "create_loan_screen": {
+    "request_loan": "Kredi Talebi",
+    "submit": "Gönder",
+    "expected_loan_amount": "Beklenen Kredi Tutarı",
+    "expected_installment_period": "Beklenen Taksit Süresi",
+    "loan_detail": "Kredi Detayı"
+  },
+  "edit_loan_screen": {
+    "edit_requested_loan": "Talep Edilen Krediyi Düzenle",
+    "submit": "Gönder",
+    "expected_loan_amount": "Beklenen Kredi Tutarı",
+    "expected_installment_period": "Beklenen Taksit Süresi",
+    "loan_detail": "Kredi Detayı"
+  },
+  "loan_detail_screen": {
+    "loan_detail": "Kredi Detayı",
+    "total": "Toplam",
+    "remarks": "Notlar",
+    "verified_by": "Doğrulayan",
+    "is_settled": "Yerleşti",
+    "requested_amount": "Talep Edilen Tutar",
+    "granted_amount": "Verilen Tutar",
+    "installment_period": "Taksit Süresi",
+    "interest_rate": "Faiz Oranı"
+  },
+  "loan_list_screen": {
+    "loan": "Kredi"
+  },
+  "change_password_screen": {
+    "change_password": "Parolayı Değiştir",
+    "old_password": "Eski Parola",
+    "new_password": "Yeni Parola",
+    "confirm_password": "Parolayı Onayla"
+  },
+  "chat_screen": {
+    "send_message": "Mesaj Gönder"
+  },
+  "group_chat_screen": {
+    "send_message": "Mesaj Gönder"
+  },
+  "company_rules_screen": {
+    "company_rules": "Şirket Kuralları"
+  },
+  "edit_profile_screen": {
+    "edit_profile": "Profili Düzenle",
+    "update": "Güncelle",
+    "change": "Değiştir",
+    "fullname": "Tam İsim",
+    "email": "E-mail",
+    "address": "Adres",
+    "phone_number": "Telefon Numarası",
+    "dob": "Doğum Tarihi",
+    "gender": "Cinsiyet",
+    "male": "Erkek",
+    "female": "Kadın",
+    "other": "Diğer"
+  },
+  "employee_detail_screen": {
+    "profile": "Profil",
+    "basic_details": "Temel Ayrıntılar",
+    "change": "Değiştir",
+    "fullname": "Tam İsim",
+    "username": "Kullanıcı Adı",
+    "address": "Adres",
+    "phone_number": "Telefon Numarası",
+    "dob": "Doğum Tarihi",
+    "gender": "Cinsiyet",
+    "company_details": "Şirket Detayları",
+    "job_position": "İş Pozisyonu",
+    "branch": "Şube",
+    "department": "Departman",
+    "employment_type": "Çalışan Türü",
+    "joined_date": "Katılma Tarihi",
+    "achievements": "Başarılar"
+  },
+  "holiday_screen": {
+    "holidays": "Tatiller",
+    "upcoming": "Yaklaşan",
+    "past": "Geçmiş"
+  },
+  "leave_calendar_screen": {
+    "leave_calendar": "Ofis Takvimi",
+    "leave_list": "Listeden Ayrıl"
+  },
+  "meeting_detail_screen": {
+    "meeting_detail": "Toplantı Detayı",
+    "date": "Tarih",
+    "participants": "Katılımcılar"
+  },
+  "meeting_list_screen": {
+    "meeting_detail": "Toplantılar",
+    "venue": "Mekan",
+    "participants": "Daha"
+  },
+  "notice_screen": {
+    "notices": "Bildirimler"
+  },
+  "notification_screen": {
+    "notifications": "Bildirimler"
+  },
+  "payslipdetail_screen": {
+    "emp_id": "TC No.",
+    "earnings": "Kazanç",
+    "deductions": "Kesintiler",
+    "actual_salary": "Gerçek Maaş",
+    "advance_salary": "Avans Maaş",
+    "absent_deduction": "Devamsızlık Kesintisi",
+    "tada": "Harcama",
+    "overtime": "Mesai",
+    "undertime": "Fazla Mesai",
+    "net_salary": "Net Kazanç",
+    "joining_date": "Katılma Tarihi"
+  },
+  "payslip_screen": {
+    "payslip": "Maaş Bordrosu",
+    "request_payslip": "Maaş Bordrosu Talep Et",
+    "result": "Sonuç"
+  },
+  "profile_screen": {
+    "profile": "Profil",
+    "basic_details": "Temel Detaylar",
+    "change": "Değiştir",
+    "fullname": "Tam İsim",
+    "username": "Kullanıcı Adı",
+    "address": "Adres",
+    "phone_number": "Telefon Numarası",
+    "dob": "Doğum Tarihi",
+    "gender": "Cinsiyet",
+    "company_details": "Şirket Detayları",
+    "job_position": "İş Pozisyonu",
+    "branch": "Şube",
+    "department": "Departman",
+    "employment_type": "İstihdam Türü",
+    "joined_date": "Katılma Tarihi",
+    "bank_name": "Banka Adı",
+    "bank_details": "Banka Detayı",
+    "account_number": "Hesap Numarası",
+    "account_type": "Hesap Türü"
+  },
+  "support_detail_screen": {
+    "payslip": "Destek Detayı",
+    "description": "Tanım",
+    "assigned_to": "Atanan Kişi",
+    "solved_by": "Çözen:",
+    "solved_at": "Çözüldü"
+  },
+  "support_list_screen": {
+    "my_tickets": "Biletlerim",
+    "all": "Tümü",
+    "pending": "Askıda Olan",
+    "in_progress": "Devam Eden",
+    "solved": "Çözülen",
+    "issue_to": "Sorun:"
+  },
+  "support_screen": {
+    "support": "Destek",
+    "help_desk": "Yardım Masası",
+    "contact_us": "Ele alınması gereken herhangi bir sorun veya şikayetin \\n varsa Bize Ulaşın.",
+    "select_department_type": "Departman Tipini Seçin",
+    "title": "Başlık",
+    "description": "Tanım",
+    "submit": "Gönder"
+  },
+  "team_sheet_screen": {
+    "team_sheet": "Takım Sayfası"
+  },
+  "create_tada_screen": {
+    "create_tada": "Oluştur Harcama",
+    "submit": "Gönder",
+    "title": "Başlık",
+    "total_expenses": "Toplam Giderler",
+    "add_attachment": "Ek Ekle",
+    "description": "Tanım"
+  },
+  "edit_tada_screen": {
+    "edit_tada": "Düzenle Harcama",
+    "submit": "Gönder",
+    "title": "Başlık",
+    "total_expenses": "Toplam Giderler",
+    "attachment": "EK",
+    "add_attachment": "EK Ekle",
+    "description": "Tanım"
+  },
+  "tada_detail_screen": {
+    "tada_detail": "Harcama Detayı",
+    "total": "Toplam",
+    "rs": "Rs",
+    "title": "Başlık",
+    "attachment": "EK",
+    "show_media": "Medyayı Göster",
+    "verified_by": "Doğrulayan",
+    "description": "Tanım"
+  },
+  "tada_list_screen": {
+    "tada": "Harcama"
+  },
+  "common": {
+    "cancel_leave": "Ayrılmayı İptal Et",
+    "confirm": "Onayla",
+    "cancel_leave_alert": "İznini iptal etmek istediğinden emin misin?",
+    "log_out_alert": "Uygulamadan çıkış yapmak istediğinizden emin misiniz?",
+    "scan_nfc": "NFC Etiketleri Taranıyor",
+    "log_out": "Oturumu Kapat",
+    "close": "Kapalı",
+    "go_back": "Geri Dön",
+    "language": "Dil",
+    "select_language": "Dil Seç",
+    "total": "Toplam",
+    "leave": "Geri Dön",
+    "holiday": "Tatil",
+    "birthday": "Doğum Günü",
+    "office_events": "Ofis Etkinlikleri",
+    "events": "Etkinlikler",
+    "location": "Konum: ",
+    "event_date": "Tarih: ",
+    "event_time": "Zaman: ",
+    "event_description": "Tanım",
+    "assets": "Varlıklar",
+    "host": "Ev Sahibi"
+  },
+  "comment_list_screen": {
+    "comments": "Yorumlar",
+    "load_more_comments": "Daha Fazla Yorum Yükle",
+    "write_your_comment": "Yorumunuzu Yazınız",
+    "team": "Takım",
+    "delete": "Sil",
+    "reply": "Cevapla",
+    "cancel_reply": "Cevabı İptal Et"
+  },
+  "project_detail_screen": {
+    "attachments": "Ekler",
+    "image": "Resimler",
+    "files": "Dosyalar",
+    "show_media": "Medyayı Göster  ->",
+    "file_images": "Dosyalar/Resimler",
+    "description": "Tanım",
+    "show_more": "Daha Fazlasını Göster",
+    "show_less": "Daha Az Göster",
+    "due_date": "Bitiş Tarihi",
+    "tasks": "Görevler",
+    "team_leads": "Takım Liderleri",
+    "team_members": "Ekip Üyeleri",
+    "view_all": "Tümünü Görüntüle  ->"
+  },
+  "project_list_screen": {
+    "projects": "Projeler",
+    "all": "Tümü",
+    "in_progress": "Devam etmekte",
+    "completed": "Tamamlanan",
+    "on_hold": "Beklemede",
+    "cancelled": "İptal Edilen",
+    "not_started": "Başlatılmayan"
+  },
+  "task_detail_screen": {
+    "attachments": "Ekler",
+    "image": "Resim",
+    "files": "Dosyalar",
+    "show_media": "Medyayı Göster  ->",
+    "file_images": "Dosyalar/Resimler",
+    "description": "Tanım",
+    "show_more": "Daha Fazlasını Göster",
+    "show_less": "Daha Az Göster",
+    "due_date": "Bitiş Tarihi",
+    "tasks": "Görevler",
+    "team_leads": "Takım Liderleri",
+    "teams": "Takımlar",
+    "team_members": "Ekip Üyeleri",
+    "view_all": "Tümünü Görüntüle  ->",
+    "checklists": "Kontrol Listeleri",
+    "no_checklist_found": "Kontrol Listesi Bulunamadı",
+    "comments": "Yorumlar",
+    "mark_as_finish": "Bitti Olarak İşaretle",
+    "checklist_complete": "Bu görevi tamamlandı olarak işaretlemek istediğinizden emin misiniz?",
+    "confirm": "Onayla",
+    "go_back": "Geri Dön"
+  },
+  "task_list_screen": {
+    "tasks": "Görevler",
+    "all": "Tümü",
+    "in_progress": "Devam Eden",
+    "completed": "Tamamlanan",
+    "on_hold": "Bekleyen",
+    "cancelled": "İptal Edilen",
+    "not_started": "Başlatılmayan"
+  },
+  "project_screen": {
+    "project_management": "Proje Yönetimi",
+    "progress_current_task": "Mevcut Görevi İlerlet",
+    "task_completed": "Görev Tamamlandı",
+    "recent_projects": "Son Projeler",
+    "view_all": "Tümünü Görüntüle  ->",
+    "recent_tasks": "Son Görevler"
+  },
+  "loader": {
+    "loading": "Yükleniyor",
+    "requesting": "Talep Ediyorum",
+    "canceling": "İptal Ediliyor, Lütfen Bekleyiniz...",
+    "signing_in": "Oturum Açılıyor..."
+  }
+}
