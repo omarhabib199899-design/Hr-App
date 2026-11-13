@@ -1,0 +1,644 @@
+{
+    "info": {
+        "name": "Al Nasr HR — Live location",
+        "description": "Everything the app needs for the live-location feature on hr.alnasrmodern.com.sa.\n\n## What this is\n\nManagement wants one screen showing where employees are while they are at work, with the office staff and the field reps as two groups. The screen, the storage and the rules are already built and live on the server. The only missing part is the app sending its position.\n\n**One new call, plus four optional fields on a call the app already has.** No new screen in the app.\n\n## The rule\n\nA position is recorded only while the employee is:\n\n1. checked in (an attendance with no check-out), **and**\n2. inside their shift's hours.\n\nOutside either, the server stores nothing. **The app does not have to work this out** — call `GET /alnasr/location/policy` and the server says whether to track and how often.\n\n`\"stored\": false` is **not an error**. It means off-shift, and the call still returns HTTP 200. When you see it, stop sending and re-check the policy.\n\n## Run it in order\n\nRequests 1 → 7 are a full walk-through. Run them top to bottom with the Collection Runner, or one at a time. Request 1 saves the token into a collection variable, so nothing else needs editing.\n\nEach request has tests that assert what should come back, so a red result means something is genuinely wrong rather than that you read it differently.\n\n## Before you start\n\nSet `username` and `password` in the collection's Variables tab. Ask Omar for a test account.\n\n## Three questions to settle first\n\nThese change the app and not the server — the server takes either answer:\n\n1. If the app is killed, should tracking restart on its own, or only when the employee next opens it?\n2. Should it stop sending below a battery level (10%?) so nobody is left with a dead phone?\n3. Every 5 minutes, or only when the position has moved 50m+? Moving-only saves battery, but a stationary person then looks like a stale one.\n\nSend answers to Omar.",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "variable": [
+        {
+            "key": "base_url",
+            "value": "https://hr.alnasrmodern.com.sa",
+            "description": "Live server, origin only. The /api prefix is in each request path, not here: Postman treats the host array as the authority and drops a path segment baked into the variable."
+        },
+        {
+            "key": "username",
+            "value": "",
+            "description": "Set this. Ask Omar for a test account."
+        },
+        {
+            "key": "password",
+            "value": "",
+            "description": "Set this.",
+            "type": "secret"
+        },
+        {
+            "key": "device_type",
+            "value": "android",
+            "description": "android | ios | web"
+        },
+        {
+            "key": "uuid",
+            "value": "postman-test-device",
+            "description": "The app sends the real device id. The server binds an account to one device, so use something distinct while testing."
+        },
+        {
+            "key": "fcm_token",
+            "value": "postman-no-push",
+            "description": "Required by /login. Any string while testing; the real app sends its FCM token."
+        },
+        {
+            "key": "token",
+            "value": "",
+            "description": "Filled in by request 1. Do not set by hand."
+        },
+        {
+            "key": "lat",
+            "value": "21.543300",
+            "description": "Starts ON the branch (\"test\", Jeddah), so the check-in in step 2 falls inside its 150m range. Change both if the branch moves — Admin → Company → Branch shows its position and range."
+        },
+        {
+            "key": "lng",
+            "value": "39.172800",
+            "description": "See lat."
+        }
+    ],
+    "auth": {
+        "type": "bearer",
+        "bearer": [
+            {
+                "key": "token",
+                "value": "{{token}}",
+                "type": "string"
+            }
+        ]
+    },
+    "event": [
+        {
+            "listen": "prerequest",
+            "script": {
+                "type": "text/javascript",
+                "exec": [
+                    "// Every request but the login needs a token. Fail with a readable",
+                    "// message rather than a confusing 401 from the server.",
+                    "const needsToken = !pm.request.url.getPath().endsWith('/login');",
+                    "if (needsToken && !pm.collectionVariables.get('token')) {",
+                    "    throw new Error('No token yet — run \"1. Login\" first.');",
+                    "}"
+                ]
+            }
+        }
+    ],
+    "item": [
+        {
+            "name": "1. Login (saves the token)",
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "type": "text/javascript",
+                        "exec": [
+                            "const body = pm.response.json();",
+                            "",
+                            "pm.test('HTTP 200', () => pm.response.to.have.status(200));",
+                            "pm.test('authenticated', () => pm.expect(body.status, body.message).to.be.true);",
+                            "",
+                            "// The package wraps errors in a 200 with the real code inside the",
+                            "// body, so checking the HTTP status alone is not enough.",
+                            "pm.test('status_code is 200 in the body too', () => pm.expect(body.status_code).to.eql(200));",
+                            "",
+                            "const token = body.data && (body.data.token || body.data.access_token);",
+                            "pm.test('a token came back', () => pm.expect(token, 'no token in data').to.be.a('string').and.not.empty);",
+                            "",
+                            "if (token) {",
+                            "    pm.collectionVariables.set('token', token);",
+                            "    console.log('Token saved. The rest of the collection will use it.');",
+                            "}"
+                        ]
+                    }
+                }
+            ],
+            "request": {
+                "auth": {
+                    "type": "noauth"
+                },
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "urlencoded",
+                    "urlencoded": [
+                        {
+                            "key": "username",
+                            "value": "{{username}}"
+                        },
+                        {
+                            "key": "password",
+                            "value": "{{password}}"
+                        },
+                        {
+                            "key": "fcm_token",
+                            "value": "{{fcm_token}}"
+                        },
+                        {
+                            "key": "device_type",
+                            "value": "{{device_type}}"
+                        },
+                        {
+                            "key": "uuid",
+                            "value": "{{uuid}}"
+                        }
+                    ]
+                },
+                "url": {
+                    "raw": "{{base_url}}/api/login",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "api",
+                        "login"
+                    ]
+                },
+                "description": "The app's existing login. Nothing new here — it is in the collection so the rest of it runs without copying a token by hand.\n\n`fcm_token`, `device_type` and `uuid` are all **required**; leaving one out gives a 422.\n\nThe server binds an account to one device id, so a login from a new `uuid` can invalidate the previous device's session. Use a distinct `uuid` while testing rather than a real handset's."
+            }
+        },
+        {
+            "name": "2. Check in — existing call, now range-checked",
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "type": "text/javascript",
+                        "exec": [
+                            "const body = pm.response.json();",
+                            "console.log(body.message);",
+                            "",
+                            "// Already checked in, or the branch has no router registered, are",
+                            "// both fine for this walk-through: step 3 is what actually decides.",
+                            "pm.test('the server answered', () => pm.expect(body).to.have.property('status_code'));",
+                            "",
+                            "if (!body.status) {",
+                            "    console.log('Check-in did not go through: ' + body.message);",
+                            "    console.log('If it says router/BSSID, ask Omar to register one, or check in from the website instead. Then carry on from step 3.');",
+                            "}"
+                        ]
+                    }
+                }
+            ],
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "urlencoded",
+                    "urlencoded": [
+                        {
+                            "key": "check_in_latitude",
+                            "value": "{{lat}}",
+                            "description": "Required."
+                        },
+                        {
+                            "key": "check_in_longitude",
+                            "value": "{{lng}}",
+                            "description": "Required."
+                        },
+                        {
+                            "key": "accuracy",
+                            "value": "15",
+                            "description": "Optional, metres. Used by the branch range check — see the description."
+                        },
+                        {
+                            "key": "router_bssid",
+                            "value": "",
+                            "description": "Optional. Some branches require a registered WiFi BSSID."
+                        }
+                    ]
+                },
+                "url": {
+                    "raw": "{{base_url}}/api/employees/check-in",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "api",
+                        "employees",
+                        "check-in"
+                    ]
+                },
+                "description": "**The URL and the required fields are unchanged** — if the app already calls this, it keeps working. Two things are worth knowing.\n\n```\ncheck_in_latitude    required  number\ncheck_in_longitude   required  number\naccuracy             optional  number   metres, from the OS\nrouter_bssid         optional  string   some branches require a registered BSSID\n```\n\n### 1. Office employees are now range-checked\n\nAn admin can set a **range in metres** on a branch. For an **office** employee of that branch, a check-in or check-out further than that from the branch is **refused**, using the position the app already sends. Field reps are not range-checked.\n\nThe refusal comes back as the API's normal error shape, with a message meant to be shown to the user as it is:\n\n```json\n{ \"status\": false, \"message\": \"أنت خارج نطاق الفرع (520 م من 200 م)\", \"status_code\": 400 }\n```\n\nSo: **show `message` as it is** rather than a generic \"check-in failed\". It already says how far out they were.\n\nSend `accuracy` when the OS gives it. The server uses it to avoid refusing someone because of a vague fix rather than because they are genuinely away from the branch.\n\nEvery attempt is logged, accepted or refused, and management can see them — so a refusal is not silent and does not need the app to report it.\n\n### 2. In this collection\n\nIt is step 2 so the walk-through has an open attendance to attach positions to. If it refuses because of a BSSID, check in from the website instead and carry on from step 3."
+            }
+        },
+        {
+            "name": "2b. Check in from far away — see the refusal",
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "type": "text/javascript",
+                        "exec": [
+                            "const body = pm.response.json();",
+                            "console.log('message: ' + body.message);",
+                            "",
+                            "pm.test('the server answered', () => pm.expect(body).to.have.property('status_code'));",
+                            "",
+                            "// Only office employees of a branch that has a range set are range-",
+                            "// checked, so a field rep passing here is correct, not a bug.",
+                            "if (body.status) {",
+                            "    console.log('Accepted — this account is a field rep, or the branch has no range set. Both are expected.');",
+                            "} else {",
+                            "    pm.test('the refusal carries a message worth showing the user', () => pm.expect(body.message).to.be.a('string').and.not.empty);",
+                            "    console.log('Refused, as intended. Show THIS message to the user as it is — it already says how far out they were.');",
+                            "}"
+                        ]
+                    }
+                }
+            ],
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "urlencoded",
+                    "urlencoded": [
+                        {
+                            "key": "check_in_latitude",
+                            "value": "24.7136",
+                            "description": "Riyadh — about 844 km from the branch in Jeddah."
+                        },
+                        {
+                            "key": "check_in_longitude",
+                            "value": "46.6753"
+                        },
+                        {
+                            "key": "accuracy",
+                            "value": "15"
+                        }
+                    ]
+                },
+                "url": {
+                    "raw": "{{base_url}}/api/employees/check-in",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "api",
+                        "employees",
+                        "check-in"
+                    ]
+                },
+                "description": "Optional — run it to see what a range refusal looks like, so the app can handle it properly rather than showing \"something went wrong\".\n\nThe coordinates are Riyadh, about 844 km from the branch, so an **office** employee is refused:\n\n```json\n{ \"status\": false, \"message\": \"You are 844090 m away from test. Check-in is allowed only within 150 m.\", \"status_code\": 400 }\n```\n\n**What the app should do:** show `message` exactly as it comes back. It is already written for the employee, in the server's current language, and it states the distance. A generic error message loses that.\n\nIf this request is **accepted**, the account is a field rep or the branch has no range set — both are correct behaviour, not a bug. Range-checking applies only to office employees of a branch that has a range."
+            },
+            "_note": "Run after 1. Login. Does not affect the rest of the walk-through."
+        },
+        {
+            "name": "3. NEW — Ask whether to track",
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "type": "text/javascript",
+                        "exec": [
+                            "const d = pm.response.json().data;",
+                            "",
+                            "pm.test('HTTP 200', () => pm.response.to.have.status(200));",
+                            "pm.test('tells you whether to track', () => pm.expect(d).to.have.property('tracking').that.is.a('boolean'));",
+                            "pm.test('gives an interval', () => pm.expect(d.interval_seconds).to.be.a('number').and.above(0));",
+                            "pm.test('gives a re-check delay', () => pm.expect(d.recheck_after_seconds).to.be.a('number').and.above(0));",
+                            "",
+                            "if (d.tracking) {",
+                            "    pm.test('no reason needed while tracking', () => pm.expect(d.reason).to.be.null);",
+                            "    pm.test('names the attendance', () => pm.expect(d.attendance_id).to.be.a('number'));",
+                            "    console.log('Tracking. Send a position every ' + d.interval_seconds + 's.');",
+                            "} else {",
+                            "    pm.test('says why not', () => pm.expect(d.reason).to.be.oneOf(['not_checked_in', 'outside_working_hours']));",
+                            "    console.log('Not tracking: ' + d.reason + '. Re-check in ' + d.recheck_after_seconds + 's.');",
+                            "    console.log('If this says not_checked_in, step 2 did not go through.');",
+                            "}"
+                        ]
+                    }
+                }
+            ],
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/api/alnasr/location/policy",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "api",
+                        "alnasr",
+                        "location",
+                        "policy"
+                    ]
+                },
+                "description": "**The one new endpoint.**\n\nCall it on app start, after every check-in and check-out, and whenever `recheck_after_seconds` has elapsed.\n\n```json\n{\n  \"tracking\": true,\n  \"reason\": null,\n  \"interval_seconds\": 300,\n  \"recheck_after_seconds\": 300,\n  \"attendance_id\": 412\n}\n```\n\n| Field | Meaning |\n|---|---|\n| `tracking` | `true` → send positions. `false` → send nothing. |\n| `reason` | `not_checked_in` or `outside_working_hours`. `null` while tracking. |\n| `interval_seconds` | How often to send. Currently **300 (5 min)**. |\n| `recheck_after_seconds` | When to call this again. 900 while not tracking, so the app is not polling hard for nothing. |\n| `attendance_id` | The check-in the positions file under. Informational. |\n\n**Read the interval from here — please do not hard-code it.** Management may want it changed, and from the server that is a settings change rather than a new build on every handset."
+            }
+        },
+        {
+            "name": "4. Send a position",
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "type": "text/javascript",
+                        "exec": [
+                            "const d = pm.response.json().data;",
+                            "",
+                            "pm.test('HTTP 200', () => pm.response.to.have.status(200));",
+                            "pm.test('says whether it was stored', () => pm.expect(d).to.have.property('stored').that.is.a('boolean'));",
+                            "pm.test('tells you when to send the next one', () => pm.expect(d.next_ping_after_seconds).to.be.a('number'));",
+                            "",
+                            "if (d.stored) {",
+                            "    console.log('Stored. It is now on the manager\\'s map.');",
+                            "} else {",
+                            "    console.log('Not stored — ' + d.reason + '. This is not an error: stop sending and re-check the policy.');",
+                            "}",
+                            "",
+                            "// Walk a little, so step 6 has a route to draw.",
+                            "pm.collectionVariables.set('lat', (parseFloat(pm.collectionVariables.get('lat')) + 0.0012).toFixed(6));",
+                            "pm.collectionVariables.set('lng', (parseFloat(pm.collectionVariables.get('lng')) + 0.0010).toFixed(6));"
+                        ]
+                    }
+                }
+            ],
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "urlencoded",
+                    "urlencoded": [
+                        {
+                            "key": "latitude",
+                            "value": "{{lat}}"
+                        },
+                        {
+                            "key": "longitude",
+                            "value": "{{lng}}"
+                        },
+                        {
+                            "key": "accuracy",
+                            "value": "12",
+                            "description": "Metres, from the OS."
+                        },
+                        {
+                            "key": "battery_level",
+                            "value": "84",
+                            "description": "0-100."
+                        },
+                        {
+                            "key": "is_mock",
+                            "value": "false",
+                            "description": "The OS mock-location flag."
+                        },
+                        {
+                            "key": "recorded_at",
+                            "value": "{{$isoTimestamp}}",
+                            "description": "When the FIX was taken. See the description."
+                        }
+                    ]
+                },
+                "url": {
+                    "raw": "{{base_url}}/api/users/location",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "api",
+                        "users",
+                        "location"
+                    ]
+                },
+                "description": "**This endpoint already exists in the app's API.** It now accepts four more optional fields and tells you whether the position was kept.\n\n```\nlatitude       required   number\nlongitude      required   number\naccuracy       optional   number   metres, from the OS\nbattery_level  optional   integer  0-100\nis_mock        optional   boolean  OS mock-location flag\nrecorded_at    optional   string   when the FIX was taken\n```\n\n```json\n{\n  \"stored\": true,\n  \"reason\": null,\n  \"next_ping_after_seconds\": 300,\n  \"tracking\": true\n}\n```\n\n### Please do send `recorded_at`\n\nIf the phone has no signal, queue the positions and send them on reconnect, each carrying the time its fix was **taken**. The map and the route are ordered by that time, not by arrival. Without it, a queue arriving at once draws the day's route out of order and shows an old point as where the person is now.\n\nA timestamp in the future, or more than 24 hours old, is ignored and replaced with the arrival time, so a handset with a wrong clock cannot bury the route in 1970.\n\n### Please do send `accuracy` and `is_mock`\n\nA phone's position is a claim, not a fact. Without `accuracy`, a 2 km city-block guess is drawn on the manager's map with the same confidence as a real GPS fix. `is_mock` is what the OS already tells you about faked-location apps; the server flags it rather than refusing it, so the manager can see it for what it is.\n\n### `0,0` is refused\n\nIt is the middle of the Atlantic, not a location. If the OS has no fix yet, send nothing rather than zeros."
+            }
+        },
+        {
+            "name": "5. Send three more (so there is a route)",
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "type": "text/javascript",
+                        "exec": [
+                            "const d = pm.response.json().data;",
+                            "pm.test('stored', () => pm.expect(d.stored, pm.response.json().message).to.be.true);",
+                            "",
+                            "// Walk on, and run this request again until four points exist.",
+                            "pm.collectionVariables.set('lat', (parseFloat(pm.collectionVariables.get('lat')) + 0.0012).toFixed(6));",
+                            "pm.collectionVariables.set('lng', (parseFloat(pm.collectionVariables.get('lng')) + 0.0010).toFixed(6));",
+                            "",
+                            "const sent = (parseInt(pm.collectionVariables.get('walk_count') || '0', 10)) + 1;",
+                            "pm.collectionVariables.set('walk_count', String(sent));",
+                            "if (sent < 3) {",
+                            "    console.log('Point ' + sent + ' of 3 — sending another.');",
+                            "    postman.setNextRequest('5. Send three more (so there is a route)');",
+                            "} else {",
+                            "    pm.collectionVariables.set('walk_count', '0');",
+                            "    console.log('Four points on the map. Click the name on the Live map to see the route drawn.');",
+                            "}"
+                        ]
+                    }
+                }
+            ],
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "urlencoded",
+                    "urlencoded": [
+                        {
+                            "key": "latitude",
+                            "value": "{{lat}}"
+                        },
+                        {
+                            "key": "longitude",
+                            "value": "{{lng}}"
+                        },
+                        {
+                            "key": "accuracy",
+                            "value": "9"
+                        },
+                        {
+                            "key": "battery_level",
+                            "value": "80"
+                        },
+                        {
+                            "key": "recorded_at",
+                            "value": "{{$isoTimestamp}}"
+                        }
+                    ]
+                },
+                "url": {
+                    "raw": "{{base_url}}/api/users/location",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "api",
+                        "users",
+                        "location"
+                    ]
+                },
+                "description": "The same call again, a little further along, three more times. A route needs at least two points to draw; four makes it obvious.\n\nAfter this, open **Admin → Field tracking → Live map** and click the employee's name — the route for the day is drawn between the points.\n\nThe test script walks the coordinates and repeats itself, so just send it once in the Runner."
+            }
+        },
+        {
+            "name": "6. Check out — existing call, also range-checked",
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "type": "text/javascript",
+                        "exec": [
+                            "console.log(pm.response.json().message);",
+                            "pm.test('the server answered', () => pm.expect(pm.response.json()).to.have.property('status_code'));"
+                        ]
+                    }
+                }
+            ],
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "urlencoded",
+                    "urlencoded": [
+                        {
+                            "key": "check_out_latitude",
+                            "value": "{{lat}}",
+                            "description": "Required."
+                        },
+                        {
+                            "key": "check_out_longitude",
+                            "value": "{{lng}}",
+                            "description": "Required."
+                        },
+                        {
+                            "key": "accuracy",
+                            "value": "15",
+                            "description": "Optional, metres."
+                        },
+                        {
+                            "key": "router_bssid",
+                            "value": "",
+                            "description": "Optional."
+                        }
+                    ]
+                },
+                "url": {
+                    "raw": "{{base_url}}/api/employees/check-out",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "api",
+                        "employees",
+                        "check-out"
+                    ]
+                },
+                "description": "**URL and required fields unchanged.** Same two notes as check-in.\n\n```\ncheck_out_latitude    required  number\ncheck_out_longitude   required  number\naccuracy              optional  number   metres\nrouter_bssid          optional  string\n```\n\nThe branch range applies here too: an **office** employee cannot check out from further than their branch's range. Show the returned `message` as it is — it says how far out they were.\n\nThere is also `POST /employees/attendance` with `attendance_type=wifi`, which takes `latitude` and `longitude` and is range-checked the same way.\n\nOnce this goes through, the employee disappears from the manager's map and the app should stop sending positions — step 7 shows what the server replies if it does not."
+            }
+        },
+        {
+            "name": "7. Prove it stops after check-out",
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "type": "text/javascript",
+                        "exec": [
+                            "const d = pm.response.json().data;",
+                            "",
+                            "pm.test('still HTTP 200 — a refusal is not an error', () => pm.response.to.have.status(200));",
+                            "pm.test('nothing was stored', () => pm.expect(d.stored).to.be.false);",
+                            "pm.test('and it says why', () => pm.expect(d.reason).to.eql('not_checked_in'));",
+                            "",
+                            "console.log('This is what your app should treat as \"stop sending\": ' + d.reason);"
+                        ]
+                    }
+                }
+            ],
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "urlencoded",
+                    "urlencoded": [
+                        {
+                            "key": "latitude",
+                            "value": "{{lat}}"
+                        },
+                        {
+                            "key": "longitude",
+                            "value": "{{lng}}"
+                        }
+                    ]
+                },
+                "url": {
+                    "raw": "{{base_url}}/api/users/location",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "api",
+                        "users",
+                        "location"
+                    ]
+                },
+                "description": "The same call as step 4, after checking out. The server keeps nothing and says `not_checked_in`.\n\n**This is the case the app has to handle.** It is HTTP 200 with `\"stored\": false` — not a 4xx. Treat it as \"stop sending, re-check the policy\", not as a failure to retry.\n\nThe same thing happens, with `outside_working_hours`, when someone is still checked in but their shift has ended."
+            }
+        },
+        {
+            "name": "8. READ ME — the loop to build (not a step)",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/api/alnasr/location/policy",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "api",
+                        "alnasr",
+                        "location",
+                        "policy"
+                    ]
+                },
+                "description": "**Not a step — open the Docs tab and read it.** Sending it just repeats request 3.\n\nNot a step — the shape of what to build.\n\n```\non app start, on check-in, on check-out:\n    GET /alnasr/location/policy\n\nwhile policy.tracking:\n    every policy.interval_seconds:\n        read position\n        POST /users/location (+ accuracy, battery_level, is_mock, recorded_at)\n        if response.data.stored == false:\n            stop; GET the policy again\n\nwhile not policy.tracking:\n    wait policy.recheck_after_seconds, then GET the policy again\n```\n\n### Permissions\n\nBackground location needs the usual declarations — `ACCESS_BACKGROUND_LOCATION` on Android, `UIBackgroundModes: location` on iOS.\n\nBoth stores require that the user is told what the tracking is for. Please say plainly that location is recorded during working hours while checked in, and stops at check-out. That is exactly what the server does, so it is not a promise the backend fails to keep.\n\n### What is already done on the server\n\nNothing below needs app-side work; it is here so you know what to expect.\n\n- `employee_locations` carries `attendance_id`, `accuracy_m`, `battery_level`, `is_mock`, `recorded_at` and `source`.\n- Positions are refused unless the employee is checked in and on shift.\n- `0,0` is refused.\n- Admin → Field tracking → **Live map**: everyone checked in, split into In office / Out of office, refreshing on a timer, with each person's route for the day drawn when their name is clicked. Someone checked in who has sent no position is shown at their check-in point and labelled as such, so the map never passes a clock-in location off as a live one."
+            }
+        }
+    ]
+}
